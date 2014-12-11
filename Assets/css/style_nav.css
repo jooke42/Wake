@@ -1,0 +1,40 @@
+@import url("default.css");
+
+#nav-photo-couverture {
+	z-index: -9999;
+	margin-top: 32px;
+	margin-left: 20px;
+	width: 920px;
+	height: 240px;
+	border-radius: 15px 15px 0 0;
+	border:2px solid black; 
+}
+
+#nav-lien {
+	z-index: 9999;
+	width: 880px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-top: -17px;
+	margin-left: 20px;
+	list-style: none;
+	background: rgba(0,0,0,0.8);
+	border-radius:  0 0 15px 15px;
+	border:2px solid black; 
+}
+
+#nav-lien li {
+	display: inline-block;
+	margin-left: 65px;
+	margin-right: 35px;
+}
+
+#nav-lien a {
+	text-decoration: none;
+	color: rgba(255,255,255,0.3);
+	font-size: 27px;
+}
+
+#nav-lien a:hover {
+	color: rgba(255,255,255,0.8);
+}

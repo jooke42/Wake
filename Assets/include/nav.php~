@@ -1,0 +1,9 @@
+<nav>
+	<img id="nav-photo-couverture" src="Assets/css/images/bandeau-site.jpg" alt="" />
+	<ul id="nav-lien">
+		<li><a href="index.php?Module=Timeline">Timeline</a></li>
+		<li><a href="index.php?Module=Profil">Profil</a></li>
+		<li><a href="">Pictures</a></li>
+		<li><a href="index.php?Module=Contact">Contact</a></li>
+	</ul>
+</nav>

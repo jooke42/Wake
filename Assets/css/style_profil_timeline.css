@@ -1,0 +1,40 @@
+@import url("default.css");
+
+#profil_timeline {
+	position: absolute;
+	top: 10%;
+	left: 78%;
+	width: 220px;
+	padding: 10px;
+	padding-top: 2px;
+	border: 1px solid silver;
+	border-radius: 15px;
+	background: white;
+}
+
+#profil_timeline-img-container {
+	position: relative;
+	/*background:#bfd70e;*/
+	background: url('./images/bandeau-site.jpg');
+	border-radius:50%;
+	margin: 0 auto;
+	margin-top: 15px;
+	width:140px;
+	height:140px;
+	border:2px solid #679403; 
+}
+
+#profil_timeline-profil-container {}
+
+#profil_timeline-profil-container ul {
+	list-style: none;
+	font-size: 25px;
+	text-align: center;
+	margin-left: -30px;
+}
+
+#profil_timeline-profil-container p {
+	padding: 10px;
+	text-align: justify;
+}
+

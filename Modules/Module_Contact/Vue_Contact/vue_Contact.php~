@@ -1,0 +1,22 @@
+<?php
+
+Class VueContact{
+
+	static function AfficherToutLesContacts($ListeContacts){
+			
+			while($resultat = $ListeContacts->fetch()) {
+				echo "<p> ";
+				echo $resultat['nom']."  ";
+				echo $resultat['prenom'];
+				echo ' </p><a href="index.php?Module=Contact&action=contactRequest&idUser'.$resultat['idUser'].'">ajouter Contact</a></br>';
+			}
+	
+	
+	}
+
+}
+
+
+
+
+?>

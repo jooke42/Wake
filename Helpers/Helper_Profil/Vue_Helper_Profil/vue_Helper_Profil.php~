@@ -1,0 +1,52 @@
+<?php
+
+class VueHelperProfil{
+	
+	function affichageNomPhoto($req,$monControleurPhoto) {
+			$resultat=$req->fetch();
+			echo '<div id="profil_timeline">
+				<div>';
+					$monControleurPhoto->affichagePhotoProfilComplet();
+				echo '</div>
+				<div id="profil_timeline-profil-container">
+					<ul>';
+						echo '<li>';
+						echo $resultat["nom"].' '.$resultat["prenom"];
+						echo '</li>';
+						echo '<li>';
+						echo $resultat["metier"];
+						echo '</li>';
+					echo '</ul>
+					
+					<p id="description">
+						
+					</p>
+				</div>
+			</div>';
+	}
+	function affichageNomPhotoUser($req,$monControleurPhoto) {
+			$resultat=$req->fetch();
+			$idContact=$resultat["idUser"];
+			echo '<div id="profil_timeline">
+				<div>';
+					$monControleurPhoto->affichagePhotoProfilCompletUser();
+				echo '</div>
+				<div id="profil_timeline-profil-container">
+					<ul>';
+						echo '<li>';
+						echo $resultat["nom"].' '.$resultat["prenom"];
+						echo '</li>';
+						echo '<li>';
+						echo $resultat["metier"];
+						echo '</li>';
+					echo '</ul>
+					
+					<p id="description">
+						
+					</p>
+				</div>
+			</div>';
+	}
+}
+
+?>

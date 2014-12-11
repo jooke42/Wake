@@ -1,0 +1,17 @@
+<?php
+
+class ModeleProfil extends DBMapper {
+
+	function affichageProfilReq() {
+		if(isset($_SESSION['idUser'])) {
+			$idUser=$_SESSION['idUser'];
+		}
+		$req=self::$database->prepare("select * from user where user.idUser=$idUser");
+		
+		$req->execute();
+		
+		return $req;	
+	}
+}
+
+?>

@@ -1,0 +1,137 @@
+@import url("default.css");
+
+#timeline {
+	margin-top: 32px;
+	margin-left: 20px;
+	width: 860px;
+	height: 100%;
+	/*border-radius: 15px;*/
+	/*border:2px solid silver;*/
+	padding: 30px;
+	padding-top: 10px;
+}
+
+#timeline-message-publication {
+	margin-left: 35px;
+	width: 800px;
+	margin-bottom: 35px;
+}
+
+#timeline-message-publication input[type="text"] {
+	padding: 10px;
+	width: 750px;
+	color: grey;
+}
+
+#timeline-message-publication textarea {
+	padding: 10px;
+	width: 750px;
+	height: 150px;
+	resize: none;
+	color: grey;
+	font-size: 15px;
+}
+
+#timeline-message-publication input[type="submit"] {
+	margin-left: 280px;
+	background: transparent;
+	border: 2px solid grey;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 6px;
+}
+
+#timeline-message-publication input[type="submit"]:hover {
+	border-color: darkorange;
+	color: darkorange;
+}
+
+#timeline-message-publication input[type="file"] {
+	padding: 20px;
+	background: transparent;
+	border: none;
+}
+
+#timeline-publication {
+	margin-top: 2px;
+	margin-bottom: 22px;
+	margin-left: 20px;
+	font-size: 18px;
+	width: 740px;
+	height: 100%;
+	border-radius: 15px;
+	border-top:2px solid silver;
+	border-bottom:2px solid silver;
+	padding: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: rgba(0,0,0,0);
+}
+
+.timeline-informations-date-publication {
+	float: left;
+}
+
+.timeline-informations-auteur {
+	float: right;
+}
+
+.timeline-message {
+	margin-top: 65px;
+}
+
+.timeline-image-container {
+	margin: 0 auto;
+	margin-bottom: 25px;
+	width: 500px;
+	height: 370px;
+}
+
+#timeline-commantaires {
+	padding: 10px;
+	padding-top: 15px;
+	padding-left: 0;
+	font-size: 14px;
+	width: 750px;
+	height: 100%;
+	border-radius: 5px;
+	margin-left: -15px;
+	margin-bottom: 15px;
+	background: rgba(0,0,0,0.1);
+	color: grey;
+}
+
+#timeline-commantaires label {
+	font-weight: bold;
+}
+
+#timeline-commantaires ul {
+	list-style: none;
+}
+
+#timeline-commantaires li {
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+}
+
+#timeline-commantaires textarea {
+	padding: 10px;
+	width: 650px;
+	height: 50px;
+	margin-left: 30px;
+	resize: none;
+	color: grey;
+	font-size: 15px;
+}
+
+#timeline-commantaires input[type="submit"] {
+	margin-left: 35px;
+	margin-top: 10px;
+	background: transparent;
+	border: 2px solid grey;
+	padding: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 6px;
+}

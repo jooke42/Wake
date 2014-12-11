@@ -1,0 +1,68 @@
+<?php
+
+class VueTimeline {
+	function affichagePublication($req,$monControleur) {
+		
+		while($resultat = $req->fetch()) {
+			echo '<div id="timeline-publication">';
+				echo '<div class="timeline-informations">';
+					echo '<span class="timeline-informations-auteur">'.$resultat['idUser'].'</span>';
+			
+					echo '<span class="timeline-informations-date-publication">'.$resultat['datePub'].'</span>';
+				echo '</div>';
+				echo '<p class="timeline-message">'.$resultat['titre'].'</p>';
+				echo '<p class="timeline-message">'.$resultat['contenu'].'</p>';
+				echo '';	
+			
+				echo '<div id="timeline-commantaires">';
+			$idPub=$resultat['idPublication'];
+			$monControleur->affichageCommentaire($idPub);
+			$this->affichageFormAjoutCom($idPub);	
+				echo '</div>';
+			echo '</div>';
+		}
+		echo '</div>';
+	}
+
+	function affichageCommentaire($idPub,$reqCom) {
+		echo '<ul>';
+		while($resultatCom = $reqCom->fetch()) {
+				
+				
+				echo '<li>'.$resultatCom['idUser'].' : '.$resultatCom['contenu'].'</li>';
+				//echo 'Publier le : '.$resultatCom['dateCom'].'<br>';
+					
+				
+		}
+		echo '</ul>';
+	}
+		
+	function affichageFormAjoutPub() {
+		echo '<div id="timeline">';
+		echo '<div id="timeline-message-publication">';
+		echo '<form name="input" action ="index.php?Module=Timeline&action=1" method="post" enctype="multipart/form-data">
+			
+				<br>
+				<input type="text" name="titre" placeholder="Titre" required /> 
+				<textarea name="contenu" placeholder="Votre publication" required ></textarea> 
+				<br>
+				<input type="file" name="upload" />
+				<input type="submit"/>
+			</form>';
+		echo '</div>';
+		
+	}
+	function affichageFormAjoutCom($idPub) {
+		echo '<form name="input" action ="index.php?Module=Timeline&action=2" method="post" enctype="multipart/form-data">
+				<br>
+				<textarea name="contenuCom" rows="2" cols="25" placeholder="Commenter" required ></textarea> 
+				<br>';
+		echo "<input type=\"text\" name=\"idPub\" value = \"$idPub\" hidden /> ";
+		echo '<input name="Envoyer" value="Envoyer" type="submit">
+			</form><br>';
+			
+			
+	}
+}
+
+?>
