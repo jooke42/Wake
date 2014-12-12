@@ -13,6 +13,7 @@ define('TEST_INCLUDE', 1);
 
 
 		<?php
+		?><div class="row"><?php
 		include('Assets/include/header.php');
 		include('Assets/include/nav.php');
 		include('Assets/include/init.php');
@@ -45,8 +46,11 @@ define('TEST_INCLUDE', 1);
             $monModule=new $module();
         }
 		else {
-
-
+			include('Helpers/Helper_Profil/Helper_Profil.php');
+			$helperProfil="Helper_Profil";
+			
+			$monHelperProfil=new $helperProfil();
+			?></div><div class="col-lg-8"><?php
 			switch($module) {
 				case "Timeline":
 				
@@ -77,11 +81,10 @@ define('TEST_INCLUDE', 1);
 				break;
 
 			}
-            include('Helpers/Helper_Profil/Helper_Profil.php');
-            $helperProfil="Helper_Profil";
-            $monHelperProfil=new $helperProfil();
-
+			?></div><?php
+			
 		}
+		
         ob_end_flush();
 		?>
 
@@ -90,10 +93,10 @@ define('TEST_INCLUDE', 1);
 <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-<script src="js/bootstrap-image-gallery.js"></script>
+<script src="Assets/js/bootstrap-image-gallery.js"></script>
 <!--<script src="js/demo.js"></script>-->
-<script src="js/ripples.min.js"></script>
-<script src="js/material.min.js"></script>
+<script src="Assets/js/ripples.min.js"></script>
+<script src="Assets/js/material.min.js"></script>
 <script>
     $(document).ready(function() {
         $.material.init();
