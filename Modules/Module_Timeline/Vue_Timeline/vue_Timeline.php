@@ -5,22 +5,7 @@ class VueTimeline {
 
 		while($resultat = $req->fetch()) {
             echo '<div class="panel panel-info" style="margin-bottom: 55px;">';
-			/*echo '<div id="timeline-publication">';
-				echo '<div class="timeline-informations">';
-					echo '<span class="timeline-informations-auteur">'.$resultat['idUser'].'</span>';
-			
-					echo '<span class="timeline-informations-date-publication">'.$resultat['datePub'].'</span>';
-				echo '</div>';
-				echo '<p class="timeline-message">'.$resultat['titre'].'</p>';
-				echo '<p class="timeline-message">'.$resultat['contenu'].'</p>';
-				echo '';	
-			
-				echo '<div id="timeline-commantaires">';
-			$idPub=$resultat['idPublication'];
-			$monControleur->affichageCommentaire($idPub);
-			$this->affichageFormAjoutCom($idPub);	
-				echo '</div>';
-			echo '</div>';*/
+
            echo ' <div class="panel-heading">';
                 echo '<h3 class="panel-title">'.$resultat['titre'].'</h3>';
 				  echo '	</div>
@@ -71,19 +56,15 @@ class VueTimeline {
 	}
 		
 	function affichageFormAjoutPub() {
-	/*	echo '<div id="timeline">';
-		echo '<div id="timeline-message-publication">';
-		echo '<form name="input" action ="index.php?Module=Timeline&action=1" method="post" enctype="multipart/form-data">
-			
-				<br>
-				<input type="text" name="titre" placeholder="Titre" required /> 
-				<textarea name="contenu" placeholder="Votre publication" required ></textarea> 
-				<br>
-				<input type="file" name="upload" />
-				<input type="submit"/>
-			</form>';
-		echo '</div>';*/
-       echo  '<form class="form-horizontal" name="input" style="margin-bottom: 25px; margin-top: 5px;" action="index.php?Module=Timeline&action=1" method="post" method="post" enctype="multipart/form-data">
+        if(isset($_GET['idContact'])) {
+            $action=4;
+            $idContact=$_GET['idContact'];
+        }
+        else {
+            $action=1;
+            $idContact=NULL;
+        }
+       echo  '<form class="form-horizontal" name="input" style="margin-bottom: 25px; margin-top: 5px;" action="index.php?Module=Timeline&action='. $action .'&idContact='.$idContact .'" method="post" method="post" enctype="multipart/form-data">
 					<fieldset>
 						<div class="form-group">
 							<div class="col-lg-12">
@@ -117,15 +98,10 @@ class VueTimeline {
 
 
 
+
+
 	function affichageFormAjoutCom($idPub) {
-	/*	echo '<form name="input" action ="index.php?Module=Timeline&action=2" method="post" enctype="multipart/form-data">
-				<br>
-				<textarea name="contenuCom" rows="2" cols="25" placeholder="Commenter" required ></textarea> 
-				<br>';
-		echo "<input type=\"text\" name=\"idPub\" value = \"$idPub\" hidden /> ";
-		echo '<input name="Envoyer" value="Envoyer" type="submit">
-			</form><br>';
-    */
+
 
        echo ' <form class="form-horizontal col-lg-10 col-lg-offset-1" name="input" action="index.php?Module=Timeline&action=2" method="post" enctype="multipart/form-data">
 							<div class="col-lg-9">

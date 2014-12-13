@@ -29,6 +29,10 @@ class Timeline extends Module {
 			$titre=$_POST['titre'];
 			$contenu=$_POST['contenu'];
 		}
+        else {
+            $titre=NULL;
+            $contenu=NULL;
+        }
 		if(isset($_POST['contenuCom'])) {
 			$contenuCom=$_POST['contenuCom'];
 			$idPub=$_POST['idPub'];
@@ -57,6 +61,10 @@ class Timeline extends Module {
 				$monControleur->affichageFormAjoutPub();
 				$monControleur->affichagePublicationUser($idContact);
 			break;
+
+            case 4:
+                $monControleur->ajoutPublicationUser($titre,$contenu,$idContact);
+                break;
 
 			default:
 		
