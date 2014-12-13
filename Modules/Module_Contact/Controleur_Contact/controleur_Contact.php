@@ -11,11 +11,11 @@ class ControleurContact{
 		
 	
 	}
-	 function AfficherToutLesContacts($ListeContacts)
+	 function AfficherListeContact($ListeContacts)
 	{
 		
 		
-	$this->vue->AfficherToutLesContacts($ListeContacts);
+	$this->vue->AfficherListeContact($ListeContacts);
 		
 	}
 	

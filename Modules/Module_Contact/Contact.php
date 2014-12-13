@@ -16,24 +16,34 @@ include_once("Modele_".$module."/modele_".$module.".php");
 		 $controleur= new ControleurContact();
 		$action=isset($_GET['action'])?$_GET['action']:'afficherToutLesContacts';
 		$search=isset($_POST['search-bar'])?$_POST['search-bar']:'victor';
+		$ListeContactsManager=new ListeContactManager();
 			switch($action){
 					case "afficherToutLesContacts":
-						$ListeContacts=$modele->getContacts();
-						$controleur->AfficherToutLesContacts($ListeContacts);
+						
+						$ListeContacts=$ListeContactsManager->GetListeContact();
+						$ListeContacts=$ListeContacts->GetListeContact();
+						$controleur->AfficherListeContact($ListeContacts);
 						break;
 					case "searchContact":
 						$ListeContacts=$modele->seachProfil($search);
 						$controleur->AfficherToutLesContacts($ListeContacts);
 						break;
-					case "contactRequest":
-						$modele->contactRequest($_GET['idUser']);
+					case "contactChange":
+						$ListeContacts= array();
+						foreach($_POST as $idContact => $etat){
+							array_push($ListeContacts, new UnContact($idContact, $etat));
+						}
+						$ListeContactsManager->SetListeContact($ListeContacts);
+						
+						
 						break;
 					case "deleteContact":
 						$modele->deleteContact($_GET['idUser']);
 						break;
 					default:
-						$ListeContacts=$modele->getContacts($_GET['idUser']);
-						$controleur->AfficherToutLesContacts($ListeContacts);
+						$ListeContacts=$ListeContactsManager->GetListeContact();
+						$ListeContacts=$ListeContacts->GetListeContact();
+						$controleur->AfficherListeContact($ListeContacts);
 						break;
 	
 	
