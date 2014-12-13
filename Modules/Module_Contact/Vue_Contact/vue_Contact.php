@@ -27,9 +27,9 @@ class VueContact {
 	<div class="row">
 		<div class="col-lg-12">
 			<div class="list-group-item">
-				<div class="row-action-primary checkbox <?php if ($Contact->getEtat() == DEMANDEENVOYE)echo " checkbox-primary" ?>">
+				<div class="row-action-primary checkbox <?php if ($Contact->getEtat() == DEMANDEENVOYE OR $Contact->getEtat() == PASAMIS)echo " checkbox-primary" ?>">
 									<input type="hidden" name="<?php echo $Contact->getIdContact()?>" value="0" />
-									<label><input  type="checkbox" name="<?php echo $Contact->getIdContact()?>" value="<?php echo $Contact->getEtat()?>"<?php if ($Contact->getEtat() == AMIS OR $Contact->getEtat() == DEMANDEENVOYE)echo 'checked'?>>Contact</label>
+									<label><input  type="checkbox" name="<?php echo $Contact->getIdContact()?>" value="<?php if($Contact->getEtat()==PASAMIS){echo DEMANDEENVOYE;}elseif($Contact->getEtat()==DEMANDERECU){echo AMIS;}else{echo $Contact->getEtat() ;}?>"<?php if ($Contact->getEtat() == AMIS OR $Contact->getEtat() == DEMANDEENVOYE)echo 'checked'?>>Contact</label>
 								
 								</div>
 			</div>

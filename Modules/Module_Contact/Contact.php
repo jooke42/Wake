@@ -15,7 +15,7 @@ include_once("Modele_".$module."/modele_".$module.".php");
 		$modele=new ModeleContact();
 		 $controleur= new ControleurContact();
 		$action=isset($_GET['action'])?$_GET['action']:'afficherToutLesContacts';
-		$search=isset($_POST['search-bar'])?$_POST['search-bar']:'victor';
+		$search=isset($_POST['search'])?$_POST['search']:'victor';
 		$ListeContactsManager=new ListeContactManager();
 			switch($action){
 					case "afficherToutLesContacts":
@@ -25,10 +25,11 @@ include_once("Modele_".$module."/modele_".$module.".php");
 						$controleur->AfficherListeContact($ListeContacts);
 						break;
 					case "searchContact":
-						$ListeContacts=$modele->seachProfil($search);
-						$controleur->AfficherToutLesContacts($ListeContacts);
+						$ListeContacts=$ListeContactsManager->seachProfil($search);
+						$controleur->AfficherListeContact($ListeContacts);
 						break;
 					case "contactChange":
+						var_dump($_POST);
 						$ListeContacts= array();
 						foreach($_POST as $idContact => $etat){
 							array_push($ListeContacts, new UnContact($idContact, $etat));

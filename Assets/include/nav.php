@@ -7,10 +7,10 @@
         </button>
         <a class="navbar-brand" href="javascript:void(0)">Wake</a>
     </div>
-    <div class="navbar-collapse collapse navbar-responsive-collapse">
+    <div class="navbar-collapse collapse navbar-responsive-collapse" >
         <!--<div class="col-lg-offset-1">-->
-        <form class="navbar-form navbar-left">
-            <input class="form-control col-lg-8" size=35 placeholder="Search..." type="text">
+        <form class="navbar-form navbar-left" method="POST" action="index.php?Module=Contact&action=searchContact">
+            <input class="form-control col-lg-8" name="search" id="search"size=35 placeholder="Search..." type="text">
         </form>
         <!--</div>-->
         <div class="col-lg-offset-4">

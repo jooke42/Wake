@@ -15,7 +15,12 @@ class UnContact {
 	private $_prenom;
 	private $_etat;
 	function __construct($id_Contact,$etat,$nom=NULL,$prenom=NULL) {
-		$this->_etat=$etat;
+		if($etat==NULL){
+			$this->_etat=PASAMIS;
+		}else{
+			$this->_etat=$etat;
+		}
+		
 		$this->_id_Contact=$id_Contact;
 		$this->_nom=$nom;
 		$this->_prenom=$prenom;
@@ -25,7 +30,9 @@ class UnContact {
 	function setContact($etat) {
 		if (isset ( $etat )) {
 			throw new ErrorException ( "vous n'avez pas renseigner de paramètre état pour mettre à jour le contact", "setContact<strong>\$etat</strong>", NULL, "modele_Contact.php", NULL, NULL );
+		
 		} else {
+			
 			switch ($etat) {
 				case PASAMIS :
 					if ($this->_etat != PASAMIS) {
@@ -167,15 +174,22 @@ class ListeContactManager extends DBMapper{
 	public function seachProfil($Query) {
 		$id = isset ( $_SESSION ['idUser'] ) ? $_SESSION ['idUser'] : 1;
 	
-		$req = self::$database->prepare ( "SELECT distinct * FROM (SELECT * FROM user WHERE MATCH (nom,prenom) AGAINST ('$Query*' IN BOOLEAN MODE) )as
-				user LEFT JOIN contact ON user.idUser = contact.idUser2" );
-	
-				// $tab=array($id);
+		$req = self::$database->prepare ( "SELECT distinct * FROM (SELECT * FROM user WHERE MATCH (nom,prenom) AGAINST (:query IN BOOLEAN MODE) )as
+				user LEFT JOIN (SELECT * FROM contact where contact.idUser1=:idProfil )as contactProfil ON user.idUser = contactProfil.idUser2 ");
+		$req->bindValue(":idProfil",$this->idProfil,PDO::PARAM_INT);
+				
+		$req->bindValue(":query",$Query.'*',PDO::PARAM_STR);
 				$req->execute ();
 	
-				$resultat = $req;
-	
-				return $resultat;
+				$resultat = $req->fetchall(PDO::FETCH_ASSOC);
+				
+				$ListeContacts= array();
+				foreach($resultat as $contactRaw){
+					
+					array_push($ListeContacts, new UnContact($contactRaw['idUser'], $contactRaw['etat'], $contactRaw['nom'], $contactRaw['prenom']));
+				}
+			
+				return $ListeContacts;
 	}
 	
 	
@@ -213,6 +227,15 @@ class UnContactManager extends DBMapper{
 				$requete->bindValue(':idprofil', $this->idProfil, PDO::PARAM_INT);
 				$requete->bindValue(':etat', $contact->getEtat(), PDO::PARAM_INT);
 				$requete->execute();
+			}
+			if($contact->getEtat()==DEMANDEENVOYE){
+				$tabVariable=array(":idProfil"=>$this->idProfil,":idContact"=>$contact->getIdContact(),":etat"=>$contact->getEtat());
+				$requete = self::$database->prepare ( "INSERT INTO contact VALUES (:idContact,:idprofil,:etat)ON DUPLICATE KEY UPDATE etat=VALUES(etat)");
+				$requete->bindValue(':idContact', $contact->getIdContact(), PDO::PARAM_INT);
+				$requete->bindValue(':idprofil', $this->idProfil, PDO::PARAM_INT);
+				$requete->bindValue(':etat', DEMANDERECU, PDO::PARAM_INT);
+				$requete->execute();
+				
 			}
 			$tabVariable=array(":idProfil"=>$this->idProfil,":idContact"=>$contact->getIdContact(),":etat"=>$contact->getEtat());
 				$requete = self::$database->prepare ( "INSERT INTO contact VALUES (:idprofil,:idContact,:etat)ON DUPLICATE KEY UPDATE etat=VALUES(etat)");
