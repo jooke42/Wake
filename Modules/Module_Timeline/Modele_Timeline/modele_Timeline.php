@@ -46,18 +46,35 @@ class ModeleTimeline extends DBMapper {
 		$req->execute();
 		header ("Refresh: 0;URL=index.php?action=0&Module=Timeline");
 	}
+    function ajoutPublicationUSer($titre,$contenu,$idContact) {
 
-	function ajoutCommentaire($idPub,$contenuCom) {
+
+        $datePub = date('Y-m-d');
+
+        $req=self::$database->prepare("INSERT INTO publication (idUser,titre,contenu,datePub) VALUES ('$idContact','$titre','$contenu','$datePub') ");
+
+        $req->execute();
+        header ("Refresh: 0;URL=index.php?action=3&Module=Timeline&idContact=$idContact");
+    }
+
+	function ajoutCommentaire($idPub,$contenuCom,$idContact) {
 
 		$idUser=$_SESSION['idUser'];
-		
-		$dateCom = date('Y-m-d');
+
+        if($idContact==$idUser) {
+            $action=1;
+
+        }
+        else {
+            $action=3;
+        }
+        $dateCom = date('Y-m-d');
 
 		$req=self::$database->prepare("INSERT INTO commentaire (idUser,idPub,contenu,dateCom) VALUES ('$idUser','$idPub','$contenuCom','$dateCom') ");
 		
 		$req->execute();
 
-		//header ("Refresh: 0;URL=index.php?action=0&Module=Timeline");
+		header ("Refresh: 0;URL=index.php?action=$action&Module=Timeline&idContact=$idContact");
 
 	}
 }

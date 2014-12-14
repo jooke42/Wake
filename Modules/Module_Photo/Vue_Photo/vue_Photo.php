@@ -22,7 +22,7 @@ class VuePhoto {
 	function affichagePhotoProfil($req) {
 		
 		$resultat = $req->fetch();
-		echo '<img id="profil_timeline-img" src="'.$resultat['photo'].'" height="160x" width="215px" />';
+		echo '<img id="profil_timeline-img" src="'.$resultat['photo'].'" width="245px" height="155px" />';
 	
 	}
 	function affichagePhotoUser($req) {

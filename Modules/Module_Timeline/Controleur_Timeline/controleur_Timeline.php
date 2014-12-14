@@ -26,11 +26,15 @@ class ControleurTimeline {
 	function affichageFormAjoutPub() {
 		$this->maVue->affichageFormAjoutPub();
 	}
+
 	function ajoutPublication($titre,$contenu) {
 		$this->monModele->ajoutPublication($titre,$contenu);
 	}
-	function ajoutCommentaire($idPub,$contenuCom) {
-		$this->monModele->ajoutCommentaire($idPub,$contenuCom);
+    function ajoutPublicationUser($titre,$contenu,$idContact) {
+        $this->monModele->ajoutPublicationUser($titre,$contenu,$idContact);
+    }
+	function ajoutCommentaire($idPub,$contenuCom,$idContact) {
+		$this->monModele->ajoutCommentaire($idPub,$contenuCom,$idContact);
 	}
 	
 }

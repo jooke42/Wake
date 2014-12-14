@@ -23,15 +23,15 @@ class Helper_Profil extends Module {
 		
 		if(isset($_GET['idContact'])) {
 			
-			$action=0;
+			$actionHelper=0;
 			$idContact=$_GET['idContact'];
 		}
 		else {
-			$action=1;
+			$actionHelper=1;
 			$idContact=$_SESSION['Utilisateur']["idUser"];
 		}
 		
-		switch($action) {
+		switch($actionHelper) {
 			case 0:
 				$req=$monControleur->reqNomPhotoUser($idContact);
 			

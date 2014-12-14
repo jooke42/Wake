@@ -39,6 +39,7 @@ class VueHelperProfil{
 		</div>';
 	}
 	function affichageNomPhotoUser($req,$monControleurPhoto) {
+        echo '</div>';
 			$resultat=$req->fetch();
 			$idContact=$resultat["idUser"];
 			/*echo '<div id="profil_timeline">
