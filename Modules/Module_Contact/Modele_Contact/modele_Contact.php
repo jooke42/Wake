@@ -29,7 +29,7 @@ class UnContact {
 	
 	function setContact($etat) {
 		if (isset ( $etat )) {
-			throw new ErrorException ( "vous n'avez pas renseigner de paramètre état pour mettre à jour le contact", "setContact<strong>\$etat</strong>", NULL, "modele_Contact.php", NULL, NULL );
+			throw new Exception ( "vous n'avez pas renseigner de paramètre état pour mettre à jour le contact", "setContact<strong>\$etat</strong>", NULL, "modele_Contact.php", NULL, NULL );
 		
 		} else {
 			
@@ -58,7 +58,7 @@ class UnContact {
 					break;
 				
 				default :
-					throw new ErrorException ( "vous n'avez pas renseigner un paramètre état Valide pour mettre à jour le contact", "setContact<strong>$etat</strong>", NULL, "modele_Contact.php", NULL, NULL );
+					throw new Exception ( "vous n'avez pas renseigner un paramètre état Valide pour mettre à jour le contact", "setContact<strong>$etat</strong>", NULL, "modele_Contact.php", NULL, NULL );
 					break;
 			}
 		}
@@ -86,7 +86,7 @@ class ListeContact{
 	function __construct($idProfil=NULL,$listeContact) {
 	if(!isset($idProfil)){
 			if(!isset ( $_SESSION ['idUser'] )){
-				throw new ErrorException("vous n'avez pas rentrer de profil actuel (pas de user connecter ,pas d'idUser fourni)", "function __construct(\$idProfil=NULL)", NULL, modele_Contact.php, NULL, NULL);
+				throw new Exception("vous n'avez pas rentrer de profil actuel (pas de user connecter ,pas d'idUser fourni)", "function __construct(\$idProfil=NULL)", NULL, modele_Contact.php, NULL, NULL);
 					
 			}else{
 				$this->idProfil=$_SESSION ['idUser'];
@@ -115,7 +115,7 @@ class ListeContactManager extends DBMapper{
 	function __construct($idProfil=NULL) {
 		if(!isset($idProfil)){
 			if(!isset ( $_SESSION ['idUser'] )){
-				throw new ErrorException("vous n'avez pas rentrer de profil actuel (pas de user connecter ,pas d'idUser fourni)", "function __construct(\$idProfil=NULL)", NULL, modele_Contact.php, NULL, NULL);
+				throw new Exception("vous n'avez pas rentrer de profil actuel (pas de user connecter ,pas d'idUser fourni)", "function __construct(\$idProfil=NULL)", NULL, modele_Contact.php, NULL, NULL);
 					
 			}else{
 				$this->idProfil=$_SESSION ['idUser'];
@@ -202,7 +202,7 @@ class UnContactManager extends DBMapper{
 	function __construct($idProfil=NULL) {
 	if(!isset($idProfil)){
 			if(!isset ( $_SESSION ['idUser'] )){
-				throw new ErrorException("vous n'avez pas rentrer de profil actuel (pas de user connecter ,pas d'idUser fourni)", "function __construct(\$idProfil=NULL)", NULL, modele_Contact.php, NULL, NULL);
+				throw new Exception("vous n'avez pas rentrer de profil actuel (pas de user connecter ,pas d'idUser fourni)", "function __construct(\$idProfil=NULL)", NULL, modele_Contact.php, NULL, NULL);
 					
 			}else{
 				$this->idProfil=$_SESSION ['idUser'];

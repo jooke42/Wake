@@ -35,7 +35,7 @@ include_once("Modele_".$module."/modele_".$module.".php");
 							array_push($ListeContacts, new UnContact($idContact, $etat));
 						}
 						$ListeContactsManager->SetListeContact($ListeContacts);
-						
+						header("Location: index.php?Module=Contact");
 						
 						break;
 					case "deleteContact":
