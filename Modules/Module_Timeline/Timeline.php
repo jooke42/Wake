@@ -40,6 +40,9 @@ class Timeline extends Module {
 		if(isset($_GET['idContact'])) {
 			$idContact=$_GET['idContact'];
 		}
+        else {
+            $idContact=$_SESSION['idUser'];
+        }
 		switch($action) {
 			case 0:
 				// Afficher les publications + formulaire ajout , action par default
@@ -54,7 +57,7 @@ class Timeline extends Module {
 			break;
 
 			case 2:
-				$monControleur->ajoutCommentaire($idPub,$contenuCom);
+				$monControleur->ajoutCommentaire($idPub,$contenuCom,$idContact);
 			break;
 
 			case 3:

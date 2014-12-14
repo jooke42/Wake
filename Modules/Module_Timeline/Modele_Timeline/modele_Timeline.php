@@ -57,19 +57,18 @@ class ModeleTimeline extends DBMapper {
         header ("Refresh: 0;URL=index.php?action=3&Module=Timeline&idContact=$idContact");
     }
 
-	function ajoutCommentaire($idPub,$contenuCom) {
+	function ajoutCommentaire($idPub,$contenuCom,$idContact) {
 
 		$idUser=$_SESSION['idUser'];
 
-        if(isset($_GET['idContact'])) {
-            $action=3;
-            $idContact=$_GET['idContact'];
+        if($idContact==$idUser) {
+            $action=1;
+
         }
         else {
-            $action=1;
-            $idContact=NULL;
+            $action=3;
         }
-		$dateCom = date('Y-m-d');
+        $dateCom = date('Y-m-d');
 
 		$req=self::$database->prepare("INSERT INTO commentaire (idUser,idPub,contenu,dateCom) VALUES ('$idUser','$idPub','$contenuCom','$dateCom') ");
 		

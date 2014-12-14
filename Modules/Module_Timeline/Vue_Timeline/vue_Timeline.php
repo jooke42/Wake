@@ -102,8 +102,15 @@ class VueTimeline {
 
 	function affichageFormAjoutCom($idPub) {
 
+        if(isset($_GET['idContact'])) {
 
-       echo ' <form class="form-horizontal col-lg-10 col-lg-offset-1" name="input" action="index.php?Module=Timeline&action=2" method="post" enctype="multipart/form-data">
+            $idContact=$_GET['idContact'];
+        }
+        else {
+
+            $idContact=$_SESSION['idUser'];
+        }
+       echo ' <form class="form-horizontal col-lg-10 col-lg-offset-1" name="input" action="index.php?Module=Timeline&action=2&idContact='.$idContact.'" method="post" enctype="multipart/form-data">
 							<div class="col-lg-9">
 								<div class="form-group">
 									<input name="contenuCom" class="form-control floating-label" style="margin-top: 5px;" id="focusedInput" placeholder="Laisser un commentaire" type="text" required >

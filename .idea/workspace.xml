@@ -2,11 +2,234 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="782295e3-6f22-484b-a199-9aa688cb32a7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/photo/0297.jpg" afterPath="$PROJECT_DIR$/Assets/photo/0297.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/photo/10538628_927217813959971_1974593378011106233_n.jpg" afterPath="$PROJECT_DIR$/Assets/photo/10538628_927217813959971_1974593378011106233_n.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/photo/1411224904-1146326_705457226136032_184512574_o.jpg" afterPath="$PROJECT_DIR$/Assets/photo/1411224904-1146326_705457226136032_184512574_o.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/Save/1414282633_f015-128.png" afterPath="$PROJECT_DIR$/Assets/css/images/Save/1414282633_f015-128.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/Save/1414282642_f007-128.png" afterPath="$PROJECT_DIR$/Assets/css/images/Save/1414282642_f007-128.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/Save/1414282653_f0c0-128.png" afterPath="$PROJECT_DIR$/Assets/css/images/Save/1414282653_f0c0-128.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/Save/1414282665_f086-128.png" afterPath="$PROJECT_DIR$/Assets/css/images/Save/1414282665_f086-128.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/Save/1414282668_f083-128.png" afterPath="$PROJECT_DIR$/Assets/css/images/Save/1414282668_f083-128.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/Save/1414282674_f003-128.png" afterPath="$PROJECT_DIR$/Assets/css/images/Save/1414282674_f003-128.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/Save/1414282680_f017-128.png" afterPath="$PROJECT_DIR$/Assets/css/images/Save/1414282680_f017-128.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/Save/1414282692_f011-128.png" afterPath="$PROJECT_DIR$/Assets/css/images/Save/1414282692_f011-128.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css_test/Bootstrap-Image-Gallery-master.zip" afterPath="$PROJECT_DIR$/Assets/css_test/Bootstrap-Image-Gallery-master.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/fonts/Material-Design-Icons.eot" afterPath="$PROJECT_DIR$/Assets/fonts/Material-Design-Icons.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/fonts/Material-Design-Icons.eot" afterPath="$PROJECT_DIR$/material_design/Autres/fonts/Material-Design-Icons.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/fonts/Material-Design-Icons.ttf" afterPath="$PROJECT_DIR$/Assets/fonts/Material-Design-Icons.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/fonts/Material-Design-Icons.ttf" afterPath="$PROJECT_DIR$/material_design/Autres/fonts/Material-Design-Icons.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/fonts/Material-Design-Icons.woff" afterPath="$PROJECT_DIR$/Assets/fonts/Material-Design-Icons.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/fonts/Material-Design-Icons.woff" afterPath="$PROJECT_DIR$/material_design/Autres/fonts/Material-Design-Icons.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/photo/PHOf2d2cd5c-0291-11e4-bc67-a9e89e449400-805x453.jpg" afterPath="$PROJECT_DIR$/Assets/photo/PHOf2d2cd5c-0291-11e4-bc67-a9e89e449400-805x453.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/photo/Recherche_image_b_b_80.jpg" afterPath="$PROJECT_DIR$/Assets/photo/Recherche_image_b_b_80.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/bandeau-site.jpg" afterPath="$PROJECT_DIR$/Assets/css/images/bandeau-site.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/Save/bandeau-site.jpg" afterPath="$PROJECT_DIR$/Assets/css/images/Save/bandeau-site.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/demo/imgs/banner.jpg" afterPath="$PROJECT_DIR$/material_design/Autres/demo/imgs/banner.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/photo/bizarre-eyes1.jpg" afterPath="$PROJECT_DIR$/Assets/photo/bizarre-eyes1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/chartre_graphique-base1-thumb.png" afterPath="$PROJECT_DIR$/Assets/css/images/chartre_graphique-base1-thumb.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/chartre_graphique-base1.png" afterPath="$PROJECT_DIR$/Assets/css/images/chartre_graphique-base1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/chartre_graphique-base2-thumb.png" afterPath="$PROJECT_DIR$/Assets/css/images/chartre_graphique-base2-thumb.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/chartre_graphique-base2.png" afterPath="$PROJECT_DIR$/Assets/css/images/chartre_graphique-base2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/demo/imgs/download.png" afterPath="$PROJECT_DIR$/material_design/Autres/demo/imgs/download.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/demo/imgs/gittip-button.jpg" afterPath="$PROJECT_DIR$/material_design/Autres/demo/imgs/gittip-button.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/demo/imgs/gittip.png" afterPath="$PROJECT_DIR$/material_design/Autres/demo/imgs/gittip.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/image.bmp" afterPath="$PROJECT_DIR$/Assets/css/images/image.bmp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/demo/imgs/issue.png" afterPath="$PROJECT_DIR$/material_design/Autres/demo/imgs/issue.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/demo/imgs/issues-button.jpg" afterPath="$PROJECT_DIR$/material_design/Autres/demo/imgs/issues-button.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css_test/img/loading.gif" afterPath="$PROJECT_DIR$/Assets/css_test/img/loading.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/img/loading.gif" afterPath="$PROJECT_DIR$/Assets/img/loading.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/Save/logo.png" afterPath="$PROJECT_DIR$/Assets/css/images/Save/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/logout.png" afterPath="$PROJECT_DIR$/Assets/css/images/logout.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/logout2.png" afterPath="$PROJECT_DIR$/Assets/css/images/logout2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/loupe.png" afterPath="$PROJECT_DIR$/Assets/css/images/loupe.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/demo/imgs/palette.jpg" afterPath="$PROJECT_DIR$/material_design/Autres/demo/imgs/palette.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/photo-couverture.jpg" afterPath="$PROJECT_DIR$/Assets/css/images/photo-couverture.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/photo/photo_didentite.jpg" afterPath="$PROJECT_DIR$/Assets/photo/photo_didentite.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/quote-left.png" afterPath="$PROJECT_DIR$/Assets/css/images/quote-left.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/quote-right.png" afterPath="$PROJECT_DIR$/Assets/css/images/quote-right.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/website-logo.png" afterPath="$PROJECT_DIR$/Assets/css/images/website-logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/website_logo.png" afterPath="$PROJECT_DIR$/Assets/css/images/website_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/.editorconfig" afterPath="$PROJECT_DIR$/material_design/.editorconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/.gitignore" afterPath="$PROJECT_DIR$/material_design/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/.jshintrc" afterPath="$PROJECT_DIR$/material_design/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/test/.jshintrc" afterPath="$PROJECT_DIR$/material_design/Autres/test/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/.travis.yml" afterPath="$PROJECT_DIR$/material_design/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/material_design/Autres/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Connexion/Connexion.php" afterPath="$PROJECT_DIR$/Modules/Module_Connexion/Connexion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Contact/Contact.php" afterPath="$PROJECT_DIR$/Modules/Module_Contact/Contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/FTYMFY~N" afterPath="$PROJECT_DIR$/Assets/css/FTYMFY~N" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/Generateur de boutons CSS3 - Design et programmation web2 - Dji.desktop" afterPath="$PROJECT_DIR$/Assets/css/Generateur de boutons CSS3 - Design et programmation web2 - Dji.desktop" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/Gruntfile.js" afterPath="$PROJECT_DIR$/material_design/Autres/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Helpers/Helper_Profil/Helper_Profil.php" afterPath="$PROJECT_DIR$/Helpers/Helper_Profil/Helper_Profil.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Inscription/Inscription.php" afterPath="$PROJECT_DIR$/Modules/Module_Inscription/Inscription.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/LICENSE.md" afterPath="$PROJECT_DIR$/material_design/Autres/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/fonts/LICENSE.txt" afterPath="$PROJECT_DIR$/Assets/fonts/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/fonts/LICENSE.txt" afterPath="$PROJECT_DIR$/material_design/Autres/fonts/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/fonts/Material-Design-Icons.svg" afterPath="$PROJECT_DIR$/Assets/fonts/Material-Design-Icons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/fonts/Material-Design-Icons.svg" afterPath="$PROJECT_DIR$/material_design/Autres/fonts/Material-Design-Icons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Messagerie/Messagerie.php" afterPath="$PROJECT_DIR$/Modules/Module_Messagerie/Messagerie.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Photo/Photo.php" afterPath="$PROJECT_DIR$/Modules/Module_Photo/Photo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Profil/Profil.php" afterPath="$PROJECT_DIR$/Modules/Module_Profil/Profil.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/README.md" afterPath="$PROJECT_DIR$/material_design/Autres/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Timeline/Timeline.php" afterPath="$PROJECT_DIR$/Modules/Module_Timeline/Timeline.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/_alerts.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/_alerts.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/sass/_alerts.scss" afterPath="$PROJECT_DIR$/material_design/Autres/sass/_alerts.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/sass/_animations.scss" afterPath="$PROJECT_DIR$/material_design/Autres/sass/_animations.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/_buttons.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/_buttons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/sass/_buttons.scss" afterPath="$PROJECT_DIR$/material_design/Autres/sass/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/_cards.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/_cards.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/sass/_cards.scss" afterPath="$PROJECT_DIR$/material_design/Autres/sass/_cards.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/_checkboxes.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/_checkboxes.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/sass/_checkboxes.scss" afterPath="$PROJECT_DIR$/material_design/Autres/sass/_checkboxes.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/_dialogs.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/_dialogs.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/_icons-material-design.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/_icons-material-design.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/sass/_icons-material-design.scss" afterPath="$PROJECT_DIR$/material_design/Autres/sass/_icons-material-design.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/_icons.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/_icons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/sass/_icons.scss" afterPath="$PROJECT_DIR$/material_design/Autres/sass/_icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/_inputs.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/_inputs.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/sass/_inputs.scss" afterPath="$PROJECT_DIR$/material_design/Autres/sass/_inputs.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/_labels.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/_labels.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/_lists.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/_lists.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/sass/_lists.scss" afterPath="$PROJECT_DIR$/material_design/Autres/sass/_lists.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/_mixins.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/_mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/sass/_mixins.scss" afterPath="$PROJECT_DIR$/material_design/Autres/sass/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/_navbar.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/_navbar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/sass/_navbar.scss" afterPath="$PROJECT_DIR$/material_design/Autres/sass/_navbar.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/_panels.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/_panels.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/_plugin-nouislider.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/_plugin-nouislider.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/sass/_plugin-nouislider.scss" afterPath="$PROJECT_DIR$/material_design/Autres/sass/_plugin-nouislider.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/_plugin-selectize.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/_plugin-selectize.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/_plugin-snackbarjs.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/_plugin-snackbarjs.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/sass/_plugin-snackbarjs.scss" afterPath="$PROJECT_DIR$/material_design/Autres/sass/_plugin-snackbarjs.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/_popups.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/_popups.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/sass/_popups.scss" afterPath="$PROJECT_DIR$/material_design/Autres/sass/_popups.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/_progress.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/_progress.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/sass/_progress.scss" afterPath="$PROJECT_DIR$/material_design/Autres/sass/_progress.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/_radios.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/_radios.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/sass/_radios.scss" afterPath="$PROJECT_DIR$/material_design/Autres/sass/_radios.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/_shadows.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/_shadows.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/sass/_shadows.scss" afterPath="$PROJECT_DIR$/material_design/Autres/sass/_shadows.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/_tabs.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/_tabs.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/sass/_tabs.scss" afterPath="$PROJECT_DIR$/material_design/Autres/sass/_tabs.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/_variables.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/_variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/sass/_variables.scss" afterPath="$PROJECT_DIR$/material_design/Autres/sass/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/_welljumbo.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/_welljumbo.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/sass/_welljumbo.scss" afterPath="$PROJECT_DIR$/material_design/Autres/sass/_welljumbo.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projet_PHP/assets/js/animation.js" afterPath="$PROJECT_DIR$/Projet_PHP/assets/js/animation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/bootstrap-image-gallery.css" afterPath="$PROJECT_DIR$/Assets/css/bootstrap-image-gallery.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css_test/css/bootstrap-image-gallery.css" afterPath="$PROJECT_DIR$/Assets/css_test/css/bootstrap-image-gallery.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css_test/js/bootstrap-image-gallery.js" afterPath="$PROJECT_DIR$/Assets/css_test/js/bootstrap-image-gallery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/js/bootstrap-image-gallery.js" afterPath="$PROJECT_DIR$/Assets/js/bootstrap-image-gallery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/bootstrap-image-gallery.min.css" afterPath="$PROJECT_DIR$/Assets/css/bootstrap-image-gallery.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css_test/css/bootstrap-image-gallery.min.css" afterPath="$PROJECT_DIR$/Assets/css_test/css/bootstrap-image-gallery.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css_test/js/bootstrap-image-gallery.min.js" afterPath="$PROJECT_DIR$/Assets/css_test/js/bootstrap-image-gallery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/js/bootstrap-image-gallery.min.js" afterPath="$PROJECT_DIR$/Assets/js/bootstrap-image-gallery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/Assets/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/bower.json" afterPath="$PROJECT_DIR$/material_design/Autres/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projet_PHP/Modules/Module_Connexion/connexion.php" afterPath="$PROJECT_DIR$/Projet_PHP/Modules/Module_Connexion/connexion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projet_PHP/assets/include/connexion.php" afterPath="$PROJECT_DIR$/Projet_PHP/assets/include/connexion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/dist/contact.html" afterPath="$PROJECT_DIR$/material_design/dist/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projet_PHP/Modules/Module_Contact/contact.php" afterPath="$PROJECT_DIR$/Projet_PHP/Modules/Module_Contact/contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projet_PHP/assets/include/contact.php" afterPath="$PROJECT_DIR$/Projet_PHP/assets/include/contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Connexion/Controleur_Connexion/controleur_Connexion.php" afterPath="$PROJECT_DIR$/Modules/Module_Connexion/Controleur_Connexion/controleur_Connexion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Contact/Controleur_Contact/controleur_Contact.php" afterPath="$PROJECT_DIR$/Modules/Module_Contact/Controleur_Contact/controleur_Contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Helpers/Helper_Profil/Controleur_Helper_Profil/controleur_Helper_Profil.php" afterPath="$PROJECT_DIR$/Helpers/Helper_Profil/Controleur_Helper_Profil/controleur_Helper_Profil.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Inscription/Controleur_Inscription/controleur_Inscription.php" afterPath="$PROJECT_DIR$/Modules/Module_Inscription/Controleur_Inscription/controleur_Inscription.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Photo/Controleur_Photo/controleur_Photo.php" afterPath="$PROJECT_DIR$/Modules/Module_Photo/Controleur_Photo/controleur_Photo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Profil/Controleur_Profil/controleur_Profil.php" afterPath="$PROJECT_DIR$/Modules/Module_Profil/Controleur_Profil/controleur_Profil.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Timeline/Controleur_Timeline/controleur_Timeline.php" afterPath="$PROJECT_DIR$/Modules/Module_Timeline/Controleur_Timeline/controleur_Timeline.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/dbmapper.php" afterPath="$PROJECT_DIR$/Assets/include/dbmapper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Installation/dbmapper.php" afterPath="$PROJECT_DIR$/Modules/Installation/dbmapper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projet_PHP/Modules/Installation/dbmapper.php" afterPath="$PROJECT_DIR$/Projet_PHP/Modules/Installation/dbmapper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Installation/debug.php" afterPath="$PROJECT_DIR$/Modules/Installation/debug.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projet_PHP/Modules/Installation/debug.php" afterPath="$PROJECT_DIR$/Projet_PHP/Modules/Installation/debug.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/deconnexion.php" afterPath="$PROJECT_DIR$/Assets/deconnexion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/deconnexion.php" afterPath="$PROJECT_DIR$/Assets/include/deconnexion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/default.css" afterPath="$PROJECT_DIR$/Assets/css/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css_test/css/demo.css" afterPath="$PROJECT_DIR$/Assets/css_test/css/demo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css_test/js/demo.js" afterPath="$PROJECT_DIR$/Assets/css_test/js/demo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/js/demo.js" afterPath="$PROJECT_DIR$/Assets/js/demo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/footer.php" afterPath="$PROJECT_DIR$/Assets/include/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projet_PHP/assets/include/footer.php" afterPath="$PROJECT_DIR$/Projet_PHP/assets/include/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/header.php" afterPath="$PROJECT_DIR$/Assets/include/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projet_PHP/assets/include/header.php" afterPath="$PROJECT_DIR$/Projet_PHP/assets/include/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/index.html" afterPath="$PROJECT_DIR$/material_design/Autres/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projet_PHP/index.php" afterPath="$PROJECT_DIR$/Projet_PHP/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/init.php" afterPath="$PROJECT_DIR$/Assets/include/init.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/dist/inscription.html" afterPath="$PROJECT_DIR$/material_design/dist/inscription.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projet_PHP/Modules/Module_Inscription/inscription.php" afterPath="$PROJECT_DIR$/Projet_PHP/Modules/Module_Inscription/inscription.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Installation/main.php" afterPath="$PROJECT_DIR$/Modules/Installation/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projet_PHP/Modules/Installation/main.php" afterPath="$PROJECT_DIR$/Projet_PHP/Modules/Installation/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/material-wfont.css" afterPath="$PROJECT_DIR$/Assets/css/material-wfont.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/material-wfont.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/material-wfont.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/material-wfont.min.css" afterPath="$PROJECT_DIR$/Assets/css/material-wfont.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/sass/material-wfont.scss" afterPath="$PROJECT_DIR$/material_design/Autres/sass/material-wfont.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/material.css" afterPath="$PROJECT_DIR$/Assets/css/material.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/js/material.js" afterPath="$PROJECT_DIR$/Assets/js/material.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/scripts/material.js" afterPath="$PROJECT_DIR$/material_design/Autres/scripts/material.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/material.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/material.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/material.min.css" afterPath="$PROJECT_DIR$/Assets/css/material.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/js/material.min.js" afterPath="$PROJECT_DIR$/Assets/js/material.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/sass/material.scss" afterPath="$PROJECT_DIR$/material_design/Autres/sass/material.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/test/materialSpec.js" afterPath="$PROJECT_DIR$/material_design/Autres/test/materialSpec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projet_PHP/Modules/Module_Messagerie/messagerie.php" afterPath="$PROJECT_DIR$/Projet_PHP/Modules/Module_Messagerie/messagerie.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Connexion/Modele_Connexion/modele_Connexion.php" afterPath="$PROJECT_DIR$/Modules/Module_Connexion/Modele_Connexion/modele_Connexion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Contact/Modele_Contact/modele_Contact.php" afterPath="$PROJECT_DIR$/Modules/Module_Contact/Modele_Contact/modele_Contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Helpers/Helper_Profil/Modele_Helper_Profil/modele_Helper_Profil.php" afterPath="$PROJECT_DIR$/Helpers/Helper_Profil/Modele_Helper_Profil/modele_Helper_Profil.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Inscription/Modele_Inscription/modele_Inscription.php" afterPath="$PROJECT_DIR$/Modules/Module_Inscription/Modele_Inscription/modele_Inscription.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Photo/Modele_Photo/modele_Photo.php" afterPath="$PROJECT_DIR$/Modules/Module_Photo/Modele_Photo/modele_Photo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Profil/Modele_Profil/modele_Profil.php" afterPath="$PROJECT_DIR$/Modules/Module_Profil/Modele_Profil/modele_Profil.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Timeline/Modele_Timeline/modele_Timeline.php" afterPath="$PROJECT_DIR$/Modules/Module_Timeline/Modele_Timeline/modele_Timeline.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/module.php" afterPath="$PROJECT_DIR$/Assets/include/module.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/nav.php" afterPath="$PROJECT_DIR$/Assets/include/nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projet_PHP/assets/include/nav_timeline.php" afterPath="$PROJECT_DIR$/Projet_PHP/assets/include/nav_timeline.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/dist/notre_projet.html" afterPath="$PROJECT_DIR$/material_design/dist/notre_projet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/package.json" afterPath="$PROJECT_DIR$/material_design/Autres/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Installation/param_connexion.php" afterPath="$PROJECT_DIR$/Modules/Installation/param_connexion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projet_PHP/Modules/Installation/param_connexion.php" afterPath="$PROJECT_DIR$/Projet_PHP/Modules/Installation/param_connexion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/params_connexion.php" afterPath="$PROJECT_DIR$/Assets/include/params_connexion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projet_PHP/Modules/Module_Pictures/pictures.php" afterPath="$PROJECT_DIR$/Projet_PHP/Modules/Module_Pictures/pictures.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projet_PHP/assets/include/pictures.php" afterPath="$PROJECT_DIR$/Projet_PHP/assets/include/pictures.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/dist/profil.html" afterPath="$PROJECT_DIR$/material_design/dist/profil.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/profil.php" afterPath="$PROJECT_DIR$/Assets/include/profil.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projet_PHP/Modules/Module_Profil/profil.php" afterPath="$PROJECT_DIR$/Projet_PHP/Modules/Module_Profil/profil.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projet_PHP/assets/include/profil.php" afterPath="$PROJECT_DIR$/Projet_PHP/assets/include/profil.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/profil_timeline.php" afterPath="$PROJECT_DIR$/Assets/include/profil_timeline.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projet_PHP/assets/include/profil_timeline.php" afterPath="$PROJECT_DIR$/Projet_PHP/assets/include/profil_timeline.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/ripples.css" afterPath="$PROJECT_DIR$/Assets/css/ripples.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/js/ripples.js" afterPath="$PROJECT_DIR$/Assets/js/ripples.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/scripts/ripples.js" afterPath="$PROJECT_DIR$/material_design/Autres/scripts/ripples.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/less/ripples.less" afterPath="$PROJECT_DIR$/material_design/Autres/less/ripples.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/ripples.min.css" afterPath="$PROJECT_DIR$/Assets/css/ripples.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/js/ripples.min.js" afterPath="$PROJECT_DIR$/Assets/js/ripples.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/sass/ripples.scss" afterPath="$PROJECT_DIR$/material_design/Autres/sass/ripples.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/Autres/test/ripplesSpec.js" afterPath="$PROJECT_DIR$/material_design/Autres/test/ripplesSpec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/js/scripts.js" afterPath="$PROJECT_DIR$/Assets/js/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/style_connexion.css" afterPath="$PROJECT_DIR$/Assets/css/style_connexion.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/style_footer.css" afterPath="$PROJECT_DIR$/Assets/css/style_footer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/style_header.css" afterPath="$PROJECT_DIR$/Assets/css/style_header.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/style_inscription.css" afterPath="$PROJECT_DIR$/Assets/css/style_inscription.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/style_nav.css" afterPath="$PROJECT_DIR$/Assets/css/style_nav.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/style_profil.css" afterPath="$PROJECT_DIR$/Assets/css/style_profil.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/style_profil_timeline.css" afterPath="$PROJECT_DIR$/Assets/css/style_profil_timeline.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/style_timeline.css" afterPath="$PROJECT_DIR$/Assets/css/style_timeline.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projet_PHP/assets/include/test.php" afterPath="$PROJECT_DIR$/Projet_PHP/assets/include/test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/images/test.svg" afterPath="$PROJECT_DIR$/Assets/css/images/test.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projet_PHP/assets/include/test_connexion.html" afterPath="$PROJECT_DIR$/Projet_PHP/assets/include/test_connexion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material_design/dist/timeline.html" afterPath="$PROJECT_DIR$/material_design/dist/timeline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/include/timeline.php" afterPath="$PROJECT_DIR$/Assets/include/timeline.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projet_PHP/Modules/Module_Timeline/timeline.php" afterPath="$PROJECT_DIR$/Projet_PHP/Modules/Module_Timeline/timeline.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projet_PHP/assets/include/timeline.php" afterPath="$PROJECT_DIR$/Projet_PHP/assets/include/timeline.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Connexion/Vue_Connexion/vue_Connexion.php" afterPath="$PROJECT_DIR$/Modules/Module_Connexion/Vue_Connexion/vue_Connexion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Contact/Vue_Contact/vue_Contact.php" afterPath="$PROJECT_DIR$/Modules/Module_Contact/Vue_Contact/vue_Contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Helpers/Helper_Profil/Vue_Helper_Profil/vue_Helper_Profil.php" afterPath="$PROJECT_DIR$/Helpers/Helper_Profil/Vue_Helper_Profil/vue_Helper_Profil.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Inscription/Vue_Inscription/vue_Inscription.php" afterPath="$PROJECT_DIR$/Modules/Module_Inscription/Vue_Inscription/vue_Inscription.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Photo/Vue_Photo/vue_Photo.php" afterPath="$PROJECT_DIR$/Modules/Module_Photo/Vue_Photo/vue_Photo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Profil/Vue_Profil/vue_Profil.php" afterPath="$PROJECT_DIR$/Modules/Module_Profil/Vue_Profil/vue_Profil.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Module_Timeline/Vue_Timeline/vue_Timeline.php" afterPath="$PROJECT_DIR$/Modules/Module_Timeline/Vue_Timeline/vue_Timeline.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Wake.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,30 +257,30 @@
       <file leaf-file-name="vue_Timeline.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Modules/Module_Timeline/Vue_Timeline/vue_Timeline.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.925926" vertical-offset="803" max-vertical-offset="2394">
-              <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="65" selection-end-column="9" />
+            <state vertical-scroll-proportion="-24.666666" vertical-offset="1350" max-vertical-offset="2520">
+              <caret line="112" column="143" selection-start-line="112" selection-start-column="143" selection-end-line="112" selection-end-column="143" />
               <folding>
-                <marker date="1418509631952" expanded="false" signature="174:194" placeholder="..." />
-                <marker date="1418509631952" expanded="true" signature="509:660" placeholder="..." />
-                <marker date="1418509631952" expanded="true" signature="540:660" placeholder="..." />
-                <marker date="1418509631952" expanded="true" signature="625:660" placeholder="..." />
-                <marker date="1418509631952" expanded="true" signature="1623:1660" placeholder="..." />
-                <marker date="1418509631952" expanded="true" signature="1801:2979" placeholder="..." />
-                <marker date="1418509631952" expanded="true" signature="1817:1835" placeholder="..." />
-                <marker date="1418509631952" expanded="true" signature="1817:2967" placeholder="..." />
-                <marker date="1418509631952" expanded="true" signature="1848:2030" placeholder="..." />
-                <marker date="1418509631952" expanded="true" signature="1879:2017" placeholder="..." />
-                <marker date="1418509631952" expanded="true" signature="2061:2391" placeholder="..." />
-                <marker date="1418509631952" expanded="true" signature="2176:2378" placeholder="..." />
-                <marker date="1418509631952" expanded="true" signature="2422:2950" placeholder="..." />
-                <marker date="1418509631952" expanded="true" signature="2538:2719" placeholder="..." />
-                <marker date="1418509631952" expanded="true" signature="2785:2937" placeholder="..." />
-                <marker date="1418509631952" expanded="true" signature="2824:2923" placeholder="..." />
-                <marker date="1418509631952" expanded="true" signature="3208:3578" placeholder="..." />
-                <marker date="1418509631952" expanded="true" signature="3238:3473" placeholder="..." />
-                <marker date="1418509631952" expanded="true" signature="3271:3459" placeholder="..." />
-                <marker date="1418509631952" expanded="true" signature="3350:3366" placeholder="..." />
-                <marker date="1418509631952" expanded="true" signature="3539:3578" placeholder="..." />
+                <marker date="1418553032995" expanded="false" signature="174:194" placeholder="..." />
+                <marker date="1418553032995" expanded="true" signature="509:660" placeholder="..." />
+                <marker date="1418553032995" expanded="true" signature="540:660" placeholder="..." />
+                <marker date="1418553032995" expanded="true" signature="625:660" placeholder="..." />
+                <marker date="1418553032995" expanded="true" signature="1623:1660" placeholder="..." />
+                <marker date="1418553032995" expanded="true" signature="1801:2979" placeholder="..." />
+                <marker date="1418553032995" expanded="true" signature="1817:1835" placeholder="..." />
+                <marker date="1418553032995" expanded="true" signature="1817:2967" placeholder="..." />
+                <marker date="1418553032995" expanded="true" signature="1848:2030" placeholder="..." />
+                <marker date="1418553032995" expanded="true" signature="1879:2017" placeholder="..." />
+                <marker date="1418553032995" expanded="true" signature="2061:2391" placeholder="..." />
+                <marker date="1418553032995" expanded="true" signature="2176:2378" placeholder="..." />
+                <marker date="1418553032995" expanded="true" signature="2422:2950" placeholder="..." />
+                <marker date="1418553032995" expanded="true" signature="2538:2719" placeholder="..." />
+                <marker date="1418553032995" expanded="true" signature="2785:2937" placeholder="..." />
+                <marker date="1418553032995" expanded="true" signature="2824:2923" placeholder="..." />
+                <marker date="1418553032995" expanded="true" signature="3396:3766" placeholder="..." />
+                <marker date="1418553032995" expanded="true" signature="3426:3661" placeholder="..." />
+                <marker date="1418553032995" expanded="true" signature="3459:3647" placeholder="..." />
+                <marker date="1418553032995" expanded="true" signature="3538:3554" placeholder="..." />
+                <marker date="1418553032995" expanded="true" signature="3727:3766" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -66,8 +289,8 @@
       <file leaf-file-name="controleur_Timeline.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Modules/Module_Timeline/Controleur_Timeline/controleur_Timeline.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.0" vertical-offset="0" max-vertical-offset="864">
-              <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+            <state vertical-scroll-proportion="-24.0" vertical-offset="0" max-vertical-offset="864">
+              <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -76,8 +299,8 @@
       <file leaf-file-name="Timeline.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Modules/Module_Timeline/Timeline.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.4074073" vertical-offset="448" max-vertical-offset="1494">
-              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+            <state vertical-scroll-proportion="-39.333332" vertical-offset="0" max-vertical-offset="1548">
+              <caret line="59" column="76" selection-start-line="59" selection-start-column="76" selection-end-line="59" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -86,16 +309,52 @@
       <file leaf-file-name="modele_Timeline.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Modules/Module_Timeline/Modele_Timeline/modele_Timeline.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.959276" vertical-offset="394" max-vertical-offset="1602">
-              <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.7556561" vertical-offset="574" max-vertical-offset="1584">
+              <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
               <folding>
-                <marker date="1418509924868" expanded="true" signature="186:254" placeholder="select * fro..publication..." />
-                <marker date="1418509924868" expanded="true" signature="387:458" placeholder="select * fro..publication..." />
-                <marker date="1418509924868" expanded="true" signature="616:673" placeholder="select * fro..commentaire..." />
-                <marker date="1418509924868" expanded="true" signature="913:1017" placeholder="INSERT INTO ..." />
-                <marker date="1418509924868" expanded="true" signature="1251:1358" placeholder="INSERT INTO ..." />
-                <marker date="1418509924868" expanded="true" signature="1824:1931" placeholder="INSERT INTO ..." />
+                <marker date="1418553065167" expanded="true" signature="186:254" placeholder="select * fro..publication..." />
+                <marker date="1418553065167" expanded="true" signature="387:458" placeholder="select * fro..publication..." />
+                <marker date="1418553065167" expanded="true" signature="616:673" placeholder="select * fro..commentaire..." />
+                <marker date="1418553065167" expanded="true" signature="913:1017" placeholder="INSERT INTO ..." />
+                <marker date="1418553065167" expanded="true" signature="1251:1358" placeholder="INSERT INTO ..." />
+                <marker date="1418553065167" expanded="true" signature="1764:1871" placeholder="INSERT INTO ..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.074074" vertical-offset="286" max-vertical-offset="2034">
+              <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modele_Photo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Modele_Photo/modele_Photo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="3.7407408" vertical-offset="101" max-vertical-offset="1782">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1418507405776" expanded="true" signature="735:896" placeholder="INSERT INTO ..." />
+                <marker date="1418507405776" expanded="true" signature="1153:1221" placeholder="select * fro..user..." />
+                <marker date="1418507405776" expanded="true" signature="1426:1464" placeholder="select idPho..user..." />
+                <marker date="1418507405776" expanded="true" signature="1597:1682" placeholder="select photo..photo..." />
+                <marker date="1418507405776" expanded="true" signature="1824:1862" placeholder="select idPho..user..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Photo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Photo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.666666" vertical-offset="864" max-vertical-offset="1854">
+              <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,29 +365,6 @@
             <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="684">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vue_Helper_Profil.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Helpers/Helper_Profil/Vue_Helper_Profil/vue_Helper_Profil.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.666666" vertical-offset="162" max-vertical-offset="1548">
-              <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
-              <folding>
-                <marker date="1418507911228" expanded="true" signature="636:842" placeholder="..." />
-                <marker date="1418507911228" expanded="true" signature="673:842" placeholder="..." />
-                <marker date="1418507911228" expanded="true" signature="702:842" placeholder="..." />
-                <marker date="1418507911228" expanded="false" signature="809:841" placeholder="..." />
-                <marker date="1418507911228" expanded="false" signature="987:1000" placeholder="..." />
-                <marker date="1418507911228" expanded="false" signature="1012:1030" placeholder="..." />
-                <marker date="1418507911228" expanded="true" signature="1789:1995" placeholder="..." />
-                <marker date="1418507911228" expanded="true" signature="1826:1995" placeholder="..." />
-                <marker date="1418507911228" expanded="true" signature="1855:1995" placeholder="..." />
-                <marker date="1418507911228" expanded="true" signature="1962:1994" placeholder="..." />
-                <marker date="1418507911228" expanded="true" signature="2154:2167" placeholder="..." />
-                <marker date="1418507911228" expanded="true" signature="2179:2197" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -162,26 +398,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controleur_Photo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Controleur_Photo/controleur_Photo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1314">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="params_connexion.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/include/params_connexion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="396">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -199,10 +415,11 @@
         <option value="$PROJECT_DIR$/Assets/include/params_connexion.php" />
         <option value="$PROJECT_DIR$/Helpers/Helper_Profil/Vue_Helper_Profil/vue_Helper_Profil.php" />
         <option value="$PROJECT_DIR$/Modules/Module_Photo/Vue_Photo/vue_Photo.php" />
-        <option value="$PROJECT_DIR$/Modules/Module_Timeline/Vue_Timeline/vue_Timeline.php" />
-        <option value="$PROJECT_DIR$/Modules/Module_Timeline/Controleur_Timeline/controleur_Timeline.php" />
-        <option value="$PROJECT_DIR$/Modules/Module_Timeline/Modele_Timeline/modele_Timeline.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Photo/Photo.php" />
         <option value="$PROJECT_DIR$/Modules/Module_Timeline/Timeline.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Timeline/Controleur_Timeline/controleur_Timeline.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Timeline/Vue_Timeline/vue_Timeline.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Timeline/Modele_Timeline/modele_Timeline.php" />
       </list>
     </option>
   </component>
@@ -343,6 +560,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Module_Photo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Wake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Wake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Module_Photo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modele_Photo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Wake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Wake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="material_design" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -457,14 +714,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.666667" vertical-offset="540" max-vertical-offset="2034">
-          <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Helpers/Helper_Profil/Helper_Profil.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="1008">
@@ -494,19 +743,57 @@
         <state vertical-scroll-proportion="-22.666666" vertical-offset="162" max-vertical-offset="1548">
           <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
           <folding>
-            <marker date="1418507911228" expanded="true" signature="636:842" placeholder="..." />
-            <marker date="1418507911228" expanded="true" signature="673:842" placeholder="..." />
-            <marker date="1418507911228" expanded="true" signature="702:842" placeholder="..." />
-            <marker date="1418507911228" expanded="false" signature="809:841" placeholder="..." />
-            <marker date="1418507911228" expanded="false" signature="987:1000" placeholder="..." />
-            <marker date="1418507911228" expanded="false" signature="1012:1030" placeholder="..." />
-            <marker date="1418507911228" expanded="true" signature="1789:1995" placeholder="..." />
-            <marker date="1418507911228" expanded="true" signature="1826:1995" placeholder="..." />
-            <marker date="1418507911228" expanded="true" signature="1855:1995" placeholder="..." />
-            <marker date="1418507911228" expanded="true" signature="1962:1994" placeholder="..." />
-            <marker date="1418507911228" expanded="true" signature="2154:2167" placeholder="..." />
-            <marker date="1418507911228" expanded="true" signature="2179:2197" placeholder="..." />
+            <marker date="1418507911228" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1418507911228" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1418507911228" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1418507911228" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1418507911228" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1418507911228" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1418507911228" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1418507911228" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1418507911228" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1418507911228" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1418507911228" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1418507911228" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material_design/dist/timeline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5202">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.074074" vertical-offset="286" max-vertical-offset="2034">
+          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Modele_Photo/modele_Photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.7407408" vertical-offset="101" max-vertical-offset="1782">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1418507405776" expanded="true" signature="735:896" placeholder="INSERT INTO ..." />
+            <marker date="1418507405776" expanded="true" signature="1153:1221" placeholder="select * fro..user..." />
+            <marker date="1418507405776" expanded="true" signature="1426:1464" placeholder="select idPho..user..." />
+            <marker date="1418507405776" expanded="true" signature="1597:1682" placeholder="select photo..photo..." />
+            <marker date="1418507405776" expanded="true" signature="1824:1862" placeholder="select idPho..user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.666666" vertical-offset="864" max-vertical-offset="1854">
+          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -527,14 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material_design/dist/timeline.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5202">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Helpers/Helper_Profil/Controleur_Helper_Profil/controleur_Helper_Profil.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="933">
@@ -545,61 +824,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Module_Timeline/Controleur_Timeline/controleur_Timeline.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.0" vertical-offset="0" max-vertical-offset="864">
-          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        <state vertical-scroll-proportion="-24.0" vertical-offset="0" max-vertical-offset="864">
+          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Timeline/Timeline.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-39.333332" vertical-offset="0" max-vertical-offset="1548">
+          <caret line="59" column="76" selection-start-line="59" selection-start-column="76" selection-end-line="59" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Module_Timeline/Vue_Timeline/vue_Timeline.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.925926" vertical-offset="803" max-vertical-offset="2394">
-          <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="65" selection-end-column="9" />
+        <state vertical-scroll-proportion="-24.666666" vertical-offset="1350" max-vertical-offset="2520">
+          <caret line="112" column="143" selection-start-line="112" selection-start-column="143" selection-end-line="112" selection-end-column="143" />
           <folding>
-            <marker date="1418509631952" expanded="false" signature="174:194" placeholder="..." />
-            <marker date="1418509631952" expanded="true" signature="509:660" placeholder="..." />
-            <marker date="1418509631952" expanded="true" signature="540:660" placeholder="..." />
-            <marker date="1418509631952" expanded="true" signature="625:660" placeholder="..." />
-            <marker date="1418509631952" expanded="true" signature="1623:1660" placeholder="..." />
-            <marker date="1418509631952" expanded="true" signature="1801:2979" placeholder="..." />
-            <marker date="1418509631952" expanded="true" signature="1817:1835" placeholder="..." />
-            <marker date="1418509631952" expanded="true" signature="1817:2967" placeholder="..." />
-            <marker date="1418509631952" expanded="true" signature="1848:2030" placeholder="..." />
-            <marker date="1418509631952" expanded="true" signature="1879:2017" placeholder="..." />
-            <marker date="1418509631952" expanded="true" signature="2061:2391" placeholder="..." />
-            <marker date="1418509631952" expanded="true" signature="2176:2378" placeholder="..." />
-            <marker date="1418509631952" expanded="true" signature="2422:2950" placeholder="..." />
-            <marker date="1418509631952" expanded="true" signature="2538:2719" placeholder="..." />
-            <marker date="1418509631952" expanded="true" signature="2785:2937" placeholder="..." />
-            <marker date="1418509631952" expanded="true" signature="2824:2923" placeholder="..." />
-            <marker date="1418509631952" expanded="true" signature="3208:3578" placeholder="..." />
-            <marker date="1418509631952" expanded="true" signature="3238:3473" placeholder="..." />
-            <marker date="1418509631952" expanded="true" signature="3271:3459" placeholder="..." />
-            <marker date="1418509631952" expanded="true" signature="3350:3366" placeholder="..." />
-            <marker date="1418509631952" expanded="true" signature="3539:3578" placeholder="..." />
+            <marker date="1418553032995" expanded="false" signature="174:194" placeholder="..." />
+            <marker date="1418553032995" expanded="true" signature="509:660" placeholder="..." />
+            <marker date="1418553032995" expanded="true" signature="540:660" placeholder="..." />
+            <marker date="1418553032995" expanded="true" signature="625:660" placeholder="..." />
+            <marker date="1418553032995" expanded="true" signature="1623:1660" placeholder="..." />
+            <marker date="1418553032995" expanded="true" signature="1801:2979" placeholder="..." />
+            <marker date="1418553032995" expanded="true" signature="1817:1835" placeholder="..." />
+            <marker date="1418553032995" expanded="true" signature="1817:2967" placeholder="..." />
+            <marker date="1418553032995" expanded="true" signature="1848:2030" placeholder="..." />
+            <marker date="1418553032995" expanded="true" signature="1879:2017" placeholder="..." />
+            <marker date="1418553032995" expanded="true" signature="2061:2391" placeholder="..." />
+            <marker date="1418553032995" expanded="true" signature="2176:2378" placeholder="..." />
+            <marker date="1418553032995" expanded="true" signature="2422:2950" placeholder="..." />
+            <marker date="1418553032995" expanded="true" signature="2538:2719" placeholder="..." />
+            <marker date="1418553032995" expanded="true" signature="2785:2937" placeholder="..." />
+            <marker date="1418553032995" expanded="true" signature="2824:2923" placeholder="..." />
+            <marker date="1418553032995" expanded="true" signature="3396:3766" placeholder="..." />
+            <marker date="1418553032995" expanded="true" signature="3426:3661" placeholder="..." />
+            <marker date="1418553032995" expanded="true" signature="3459:3647" placeholder="..." />
+            <marker date="1418553032995" expanded="true" signature="3538:3554" placeholder="..." />
+            <marker date="1418553032995" expanded="true" signature="3727:3766" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Module_Timeline/Timeline.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.4074073" vertical-offset="448" max-vertical-offset="1494">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Module_Timeline/Modele_Timeline/modele_Timeline.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.959276" vertical-offset="394" max-vertical-offset="1602">
-          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.7556561" vertical-offset="574" max-vertical-offset="1584">
+          <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
           <folding>
-            <marker date="1418509924868" expanded="true" signature="186:254" placeholder="select * fro..publication..." />
-            <marker date="1418509924868" expanded="true" signature="387:458" placeholder="select * fro..publication..." />
-            <marker date="1418509924868" expanded="true" signature="616:673" placeholder="select * fro..commentaire..." />
-            <marker date="1418509924868" expanded="true" signature="913:1017" placeholder="INSERT INTO ..." />
-            <marker date="1418509924868" expanded="true" signature="1251:1358" placeholder="INSERT INTO ..." />
-            <marker date="1418509924868" expanded="true" signature="1824:1931" placeholder="INSERT INTO ..." />
+            <marker date="1418553065167" expanded="true" signature="186:254" placeholder="select * fro..publication..." />
+            <marker date="1418553065167" expanded="true" signature="387:458" placeholder="select * fro..publication..." />
+            <marker date="1418553065167" expanded="true" signature="616:673" placeholder="select * fro..commentaire..." />
+            <marker date="1418553065167" expanded="true" signature="913:1017" placeholder="INSERT INTO ..." />
+            <marker date="1418553065167" expanded="true" signature="1251:1358" placeholder="INSERT INTO ..." />
+            <marker date="1418553065167" expanded="true" signature="1764:1871" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>

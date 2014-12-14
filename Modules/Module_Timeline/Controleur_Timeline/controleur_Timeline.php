@@ -33,8 +33,8 @@ class ControleurTimeline {
     function ajoutPublicationUser($titre,$contenu,$idContact) {
         $this->monModele->ajoutPublicationUser($titre,$contenu,$idContact);
     }
-	function ajoutCommentaire($idPub,$contenuCom) {
-		$this->monModele->ajoutCommentaire($idPub,$contenuCom);
+	function ajoutCommentaire($idPub,$contenuCom,$idContact) {
+		$this->monModele->ajoutCommentaire($idPub,$contenuCom,$idContact);
 	}
 	
 }
