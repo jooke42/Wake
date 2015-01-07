@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
     <link rel="stylesheet" href="Assets/css/bootstrap-image-gallery.css">
     <link rel="stylesheet" href="Assets/css/demo.css">
+    <link rel="stylesheet" href="Assets/css/style_connexion.css" >
+
 
 </head>
 <body>

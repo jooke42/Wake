@@ -29,13 +29,13 @@ include_once("Modele_".$module."/modele_".$module.".php");
 						$controleur->AfficherListeContact($ListeContacts);
 						break;
 					case "contactChange":
-						var_dump($_POST);
+
 						$ListeContacts= array();
 						foreach($_POST as $idContact => $etat){
 							array_push($ListeContacts, new UnContact($idContact, $etat));
 						}
 						$ListeContactsManager->SetListeContact($ListeContacts);
-						
+						header ("Refresh: 0;URL=index.php?action=afficherToutLesContacts&Module=Contact");
 						
 						break;
 					case "deleteContact":

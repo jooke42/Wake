@@ -1,5 +1,5 @@
 <?php 
-if (! defined ('TEST_INCLUDE'))
+ if (! defined ('TEST_INCLUDE'))
    die ("Vous ne pouvez pas acceder directement à ce fichier");
 
 include_once("Controleur_".$module."/controleur_".$module.".php");
@@ -37,8 +37,9 @@ class Connexion extends Module {
 			break;
 
 			case 2:
-				echo "/!\ Mot de passe incorrect /!\ ";
+
 				$monControleur->affichageFormConnexion();
+				echo "/!\ Mot de passe incorrect /!\ ";
 			break;
 
 			default:
