@@ -1,0 +1,45 @@
+<?php 
+
+	if (! defined ('TEST_INCLUDE'))
+ 	  die ("Vous ne pouvez pas acceder directement à ce fichier");
+
+	include_once("Controleur_".$module."/controleur_".$module.".php");
+
+	class Messagerie extends Module {
+		
+		private $controleur_Messagerie;	
+
+		function __construct() {
+		
+			/* Construction */ 
+			$module = get_class($this);
+			$nomControleur = 'Controleur'.$module;
+			$controleur_Messagerie = new $nomControleur($module);
+
+			/* Vérifie si l'action existe */
+			if(!isset($action)) {
+
+				if(isset($_GET['action']))
+					$action=$_GET['action'];
+				else 
+					$action=0;
+
+			}
+
+			/* Action à réaliser */
+			switch($action) {
+				case 0:
+					break;
+
+				case 1:
+					break;
+
+					default: 
+						break;
+				
+			}
+		}
+	}
+
+
+?>

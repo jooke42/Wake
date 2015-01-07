@@ -1,0 +1,44 @@
+<?php
+
+class VueMessagerie {
+	
+	function __construct($module) {}
+	
+	function afficherListeContact($resultat) {
+
+		echo 'Liste de contact :<br>';
+		echo '<div id="liste_contact">';
+			echo '<form name="listeContact" action="#" method="get">';
+				echo '<select name="contact">';
+					foreach() {
+						// Récupération résultats du modèle
+					}
+				echo '</select>';
+
+				echo '<input type="submit" value="Afficher la conversation">';
+		
+			echo '</form>';
+		echo '</div>';
+	
+	}	
+
+	function afficherConversation() {
+		
+		echo 'Messages :<br>';
+		echo '<div id="messages">';
+			echo '<form name="formMessage" action="#" method="get">';
+				echo '<select name="selectMessage">';
+					foreach() {
+						// Récupération résultats du modèle
+					}
+				echo '</select>';
+
+				echo '<input type="submit" value="Afficher la conversation">';
+		
+			echo '</form>';
+		echo '</div>';
+
+	}
+}
+
+?>

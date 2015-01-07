@@ -1,0 +1,52 @@
+<?php
+
+	include_once("Vue_".$module."/vue_".$module.".php");
+	include_once("Modele_".$module."/modele_".$module.".php");
+
+	class ControleurMessagerie {
+
+		private $vue_Messagerie;
+		private $modele_Messagerie;
+
+		function __construct($module) {
+
+			// $vue='Vue'.$module;
+			// $modele='Modele'.$module;
+
+			$this->vue_Messagerie = new VueMessagerie();
+			$this->modele_Messagerie = new ModeleMessagerie();	
+		
+		}
+
+
+		function creerConversation() {
+			
+		}
+
+		function afficherListeContact() { 
+			$this->modele_Messagerie->afficherListeContact();
+			$this->vue_Messagerie->afficherListeContact();			
+		}	
+
+		function afficherConversation() {
+			$this->modele_Messagerie->afficherConversation();
+			$this->vue_Messagerie->afficherConversation();
+		}
+
+		function redigerMessage() {
+			
+		}
+
+		/* Optionnel */
+		function trierListeContact() {
+			
+		}
+
+		/* Optionnel */
+		function supprimerFilMessage() {
+			
+		}	
+			
+	}
+
+?>

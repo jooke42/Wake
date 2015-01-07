@@ -83,6 +83,10 @@ define('TEST_INCLUDE', 1);
 					include('Modules/Module_'.$module.'/'.$module.'.php');
 					$monModule=new $module();
 				break;
+				case "Messagerie":
+					include('Modules/Module_'.$module.'/'.$module.'.php');
+					$monModule=new $module();
+					break;
 
 			}
 			?><?php
