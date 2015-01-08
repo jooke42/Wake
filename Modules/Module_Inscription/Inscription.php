@@ -24,6 +24,7 @@ class Inscription extends Module {
 			$email=$_POST['email'];
 			$genre=$_POST['genre'];
 			$prenom=$_POST['prenom'];
+			$adresse=$_POST['adresse'];
 			$datNais=$_POST['datNais'];
 			$passConf=$_POST['passConf'];
 			$telephone=$_POST['telephone'];
@@ -49,7 +50,7 @@ class Inscription extends Module {
 
 			case 1:
 		
-				$monControleur->nouveauUser($nom, $prenom, $genre, $pass, $passConf,$email ,$datNais, $telephone);
+				$monControleur->nouveauUser($nom, $prenom, $genre,$adresse, $pass, $passConf,$email ,$datNais, $telephone);
 			break;
 
 			case 3:

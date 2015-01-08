@@ -36,6 +36,10 @@ class Profil extends Module {
             $email=$_POST['email'];
             $genre=$_POST['genre'];
             $metier=$_POST['metier'];
+			$etude=$_POST['etude'];
+			$adresse=$_POST['adresse'];
+			$lieuTravail=$_POST['lieuTravail'];
+			$status=$_POST['status'];
             $prenom=$_POST['prenom'];
             $datNais=$_POST['datNais'];
             $telephone=$_POST['telephone'];
@@ -52,7 +56,7 @@ class Profil extends Module {
 			break;
 
 			case 2:
-                $monControleur->modifProfil($nom,$prenom,$pass,$email,$genre,$datNais,$telephone,$metier);
+                $monControleur->modifProfil($nom,$prenom,$pass,$email,$genre,$adresse,$datNais,$telephone,$metier,$status,$lieuTravail,$etude);
 			break;
 
 			case 3:

@@ -14,9 +14,9 @@ class ControleurInscription {
 	function affichageFormInscription() {
 		$this->maVue->affichageFormInscription();
 	}
-	function nouveauUser($nom, $prenom, $genre, $pass, $passConf,$email ,$datNais, $telephone) {
+	function nouveauUser($nom, $prenom, $genre ,$adresse, $pass, $passConf,$email ,$datNais, $telephone) {
 		
-		$this->monModele->nouveauUser($nom, $prenom, $genre, $pass, $passConf,$email ,$datNais, $telephone);
+		$this->monModele->nouveauUser($nom, $prenom, $genre, $adresse, $pass, $passConf,$email ,$datNais, $telephone);
 	} 
 
 }

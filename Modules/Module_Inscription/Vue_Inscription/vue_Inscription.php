@@ -32,9 +32,13 @@ class VueInscription {
 				<br>
 				<input type="password" name="passConf" size="20" required />
 				<br>
-				<label>Date de naissance: * </label>
+				<label>Date de naissance : * </label>
 				<br>
 				<input type="date" name="datNais" size="20" required />
+				<br>
+				<label>Adresse : * </label>
+				<br>
+				<input type="text" name="adresse" size="20" required />
 				<br>
 				<label>Telephone : * </label>
 				<br>
