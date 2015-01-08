@@ -29,8 +29,9 @@ class VueProfil {
 						<span class="label label-info">Lieu de travail</span><span style="margin-left: 15px;"><strong>'.$_SESSION['Utilisateur']['lieuTravail'].'</strong></span><br><br>
 						<span class="label label-info">Études</span><span style="margin-left: 15px;"><strong>'.$_SESSION['Utilisateur']['etude'].'</strong></span><br><br>
 					</div>
-				</div>
-				  <a href="index.php?Module=Profil&actionProfil=1" alt="Modifier données">Modifier vos données personnelles</a>
+				</div>';
+				$this->affichageProfilPhoto($monControleurPhoto);
+				  echo '<a href="index.php?Module=Profil&actionProfil=1" alt="Modifier données">Modifier vos données personnelles</a>
 				<div class="col-lg-12">
 					<h2><div class="icon-preview"><i class="mdi-image-timer-auto" style="margin-right: 15px;"></i><span>Amis </span></div></h2>
 					<br>
@@ -101,7 +102,7 @@ class VueProfil {
 						</div>
 					</div>
 				</div>';
-				$this->affichageProfilPhoto($monControleurPhoto);
+
 
 
 	}
@@ -218,87 +219,7 @@ class VueProfil {
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-12">
-					<h2><div class="icon-preview"><i class="mdi-image-timer-auto" style="margin-right: 15px;"></i><span>Citation </span></div></h2>
-					<blockquote>
-						<p>'.$_SESSION['Utilisateur']["citation"].'</p>
-					</blockquote>
 				</div>';
-        echo '<div id="profil">
-				<div id="profil-infos">
-					<div id="profil-gauche">
-					     <form method="post" action="index.php?Module=Profil&actionProfil=2" enctype="multipart/form-data">
-						<label>Nom: *</label>
-                         <br>
-				        <input type="text" name="nom" size="20" value="'.$_SESSION['Utilisateur']["nom"].'" required />
-				        <br>
-				    <label>Prenom : </label>
-                 <br>
-				<input type="text" name="prenom" size="20" value="'.$_SESSION['Utilisateur']["prenom"].'" required />
-				<br>
-				<label>Genre : </label>
-                 <br>
-				<select name="genre" required >
-					<option value="1">Masculin</option>
-					<option value="0">Feminin</option>
-				</select>
-				<br><br>
-				<label>Email : </label>
-                 <br>
-				<input type="text" name="email" size="20" value ="'.$_SESSION['Utilisateur']["email"].'" required />
-				<br>';
-           echo ' </div>
-            <div id="profil-droite">
-
-
-				<label>Date de naissance : </label>
-                 <br>
-				<input type="date" name="datNais" size="20" required value="'.$_SESSION['Utilisateur']["datNais"].'" />
-				<br>
-				<label>Telephone :  </label>
-                 <br>
-				<input type="text" name="telephone" size="20" required value="'.$_SESSION['Utilisateur']["telephone"].'" />
-				<br>
-				<label>Metier : </label>
-                 <br>
-				<input type="text" name="metier" size="20" value="'.$_SESSION['Utilisateur']["metier"].'" />
-				<br><br>
-				<label>Entrez mot de passe : </label>
-                 <br>
-				<input type="password" name="pass" size="20" required />
-
-				<br><br>
-				<input name="Envoyer" value="Envoyer" type="submit">
-				</form>
-          </div>
-
-					<div id="profil-amis">
-						<p><em>Ici y\'aura les amis</em></p>
-						<div class="ami"></div>
-						<div class="ami"></div>
-						<div class="ami"></div>
-						<div class="ami"></div>
-						<div class="ami"></div>
-						<div class="ami"></div>
-						<div class="ami"></div>
-						<div class="ami"></div>
-						<div class="ami"></div>
-						<div class="ami"></div><br>
-						<div class="ami"></div>
-						<div class="ami"></div>
-						<div class="ami"></div>
-						<div class="ami"></div>
-						<div class="ami"></div>
-						<div class="ami"></div>
-						<div class="ami"></div>
-						<div class="ami"></div>
-						<div class="ami"></div>
-						<div class="ami"></div><br>
-						<a id="lien-ami" href="#">Voir tous les contacts...</a>
-					</div>
-				</div>
-			</div>';
     }
 function affichageProfilPhoto($monControleurPhoto) {
 			$monControleurPhoto->affichageFormPhoto();
