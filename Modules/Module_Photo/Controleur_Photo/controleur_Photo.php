@@ -15,8 +15,8 @@ class ControleurPhoto {
 	function affichageFormPhoto() {
 		$this->maVue->affichageFormPhoto();
 	}
-	function uploadPhoto($idPub,$index,$destination,$maxsize,$extensions,$titre,$description) {
-		$idPhoto=$this->monModele->uploadPhoto($idPub,$index,$destination,$maxsize,$extensions,$titre,$description);
+	function uploadPhoto($idPub,$index,$destination,$maxsize,$extensions) {
+		$idPhoto=$this->monModele->uploadPhoto($idPub,$index,$destination,$maxsize,$extensions);
         return $idPhoto;
 	}
 	function affichagePhotoReq() {
