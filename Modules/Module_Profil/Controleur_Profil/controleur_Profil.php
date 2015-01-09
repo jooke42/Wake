@@ -23,8 +23,8 @@ class ControleurProfil {
 
         $this->maVue->affichageProfilModif($monControleurPhoto);
     }
-    function modifProfil($nom,$prenom,$pass,$email,$genre,$datNais,$telephone,$metier) {
-        $this->monModele->modifProfil($nom,$prenom,$pass,$email,$genre,$datNais,$telephone,$metier);
+    function modifProfil($nom,$prenom,$pass,$email,$genre,$adresse,$datNais,$telephone,$metier,$status,$lieuTravail,$etude) {
+        $this->monModele->modifProfil($nom,$prenom,$pass,$email,$genre,$adresse,$datNais,$telephone,$metier,$status,$lieuTravail,$etude);
     }
 }
 

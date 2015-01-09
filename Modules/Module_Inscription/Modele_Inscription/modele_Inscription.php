@@ -3,7 +3,7 @@
 class ModeleInscription extends DBMapper {
 
 	
-	function nouveauUser($nom, $prenom, $genre, $pass, $passConf,$email ,$datNais, $telephone) {
+	function nouveauUser($nom, $prenom, $genre, $adresse, $pass, $passConf,$email ,$datNais, $telephone) {
 		
 		$req=self::$database->prepare("select * from user where email like '$email'");
 		
@@ -26,7 +26,7 @@ class ModeleInscription extends DBMapper {
 			
 
 			$pass=md5($pass);
-			$req=self::$database->prepare("INSERT INTO user (nom,prenom,genre,email,password,datNais,telephone) VALUES ('$nom','$prenom','$genre','$email','$pass','$datNais','$telephone'); ");
+			$req=self::$database->prepare("INSERT INTO user (nom,prenom,genre,adresse,email,password,datNais,telephone) VALUES ('$nom','$prenom','$genre','$adresse','$email','$pass','$datNais','$telephone'); ");
 		
 			$req->execute();
 			header ("Refresh: 0;URL=index.php?action=0&Module=Connexion");

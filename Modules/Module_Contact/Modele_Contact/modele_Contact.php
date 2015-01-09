@@ -15,7 +15,8 @@ class UnContact {
 	private $_prenom;
 	private $_etat;
 	function __construct($id_Contact,$etat,$nom=NULL,$prenom=NULL) {
-		if($etat==NULL){
+		
+		if($etat==NULL or $id_Contact==$_SESSION['idUser']){
 			$this->_etat=PASAMIS;
 		}else{
 			$this->_etat=$etat;
@@ -41,7 +42,7 @@ class UnContact {
 					
 					break;
 				case DEMANDEENVOYE :
-					if ($this->_etat == PASAMIS) {
+					if ($this->_etat == PASAMIS  and  $this->_id_Contact!=$_SESSION['idUser']) {
 						$this->_etat = DEMANDEENVOYE;
 					}
 					

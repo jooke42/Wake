@@ -5,11 +5,7 @@ class VuePhoto {
 	function affichageFormPhoto() {
 		echo '
 		<form method="post" action="index.php?Module=Photo&actionPhoto=4" enctype="multipart/form-data">
-			<label for="titre">Titre photo (max. 50 caractères) :</label><br />
-  			<input type="text" name="titre"  id="titre" placeholder="Titre" /><br />
-			<label for="description">Description photo :</label><br />
-    			<textarea name="description" id="description" placeholder="Description" ></textarea><br />
-			<label for="mon_fichier">Fichier (tous formats | max. 16 Mo) :</label><br />
+			<label for="mon_fichier">Photo (tous formats | max. 16 Mo) :</label><br />
 			<input type="hidden" name="MAX_FILE_SIZE" value="16000000" />
 			<input type="file" name="photo" id="photo" /><br />
      			<input type="submit" name="submit" value="Envoyer" />

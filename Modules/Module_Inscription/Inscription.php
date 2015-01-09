@@ -19,14 +19,15 @@ class Inscription extends Module {
 		
 		
 		if(isset($_POST['nom'])) {
-			$nom=$_POST['nom'];
-			$pass=$_POST['pass'];
-			$email=$_POST['email'];
-			$genre=$_POST['genre'];
-			$prenom=$_POST['prenom'];
-			$datNais=$_POST['datNais'];
-			$passConf=$_POST['passConf'];
-			$telephone=$_POST['telephone'];
+			$nom=mysql_real_escape_string($_POST['nom']);
+			$pass=mysql_real_escape_string($_POST['pass']);
+			$email=mysql_real_escape_string($_POST['email']);
+			$genre=mysql_real_escape_string($_POST['genre']);
+			$prenom=mysql_real_escape_string($_POST['prenom']);
+			$adresse=mysql_real_escape_string($_POST['adresse']);
+			$datNais=mysql_real_escape_string($_POST['datNais']);
+			$passConf=mysql_real_escape_string($_POST['passConf']);
+			$telephone=mysql_real_escape_string($_POST['telephone']);
 	
 	
 		}
@@ -49,7 +50,7 @@ class Inscription extends Module {
 
 			case 1:
 		
-				$monControleur->nouveauUser($nom, $prenom, $genre, $pass, $passConf,$email ,$datNais, $telephone);
+				$monControleur->nouveauUser($nom, $prenom, $genre,$adresse, $pass, $passConf,$email ,$datNais, $telephone);
 			break;
 
 			case 3:

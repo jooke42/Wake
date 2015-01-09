@@ -19,17 +19,16 @@ class Photo extends Module {
 		
 		if(!isset($actionPhoto)) {
 			if(isset($_GET['actionPhoto'])) {
-				$actionPhoto=$_GET['actionPhoto'];
+				$actionPhoto=mysql_real_escape_string($_GET['actionPhoto']);
 			}
 			else {
 				$actionPhoto=0;
 			}
 		}
 
-		if(isset($_POST['titre'])) {
-			$titre=$_POST['titre'];
-			$description=$_POST['description'];
-			$maxsize=$_POST['MAX_FILE_SIZE'];	
+		if(isset($_POST['MAX_FILE_SIZE'])) {
+
+			$maxsize=mysql_real_escape_string($_POST['MAX_FILE_SIZE']);
 		}
 		else {
 			$titre=null;
@@ -47,7 +46,7 @@ class Photo extends Module {
 			$destination=NULL;
 		}	
 		if(isset($_GET['idContact'])) {
-			$idUser=$_GET['idContact'];
+			$idUser=mysql_real_escape_string($_GET['idContact']);
 		}
 		else {
 			$idUser=$_SESSION['Utilisateur']["idUser"];
@@ -60,7 +59,7 @@ class Photo extends Module {
 				
 				$monControleur->affichagePhotoUser($idUser);
 			case 1:
-				$upload=$monControleur->uploadPhoto($idPub,'photo',$destination,$maxsize,array('png','gif','jpg','jpeg'),$titre,$description);
+				$upload=$monControleur->uploadPhoto($idPub,'photo',$destination,$maxsize,array('png','gif','jpg','jpeg'));
 				
 			break;
 
@@ -73,7 +72,7 @@ class Photo extends Module {
 			break;
 			case 4:
 				
-				$idPhoto=$monControleur->uploadPhoto($idPub,'photo',$destination,$maxsize,array('png','gif','jpg','jpeg'),$titre,$description);
+				$idPhoto=$monControleur->uploadPhoto($idPub,'photo',$destination,$maxsize,array('png','gif','jpg','jpeg'));
 				$idUser=$_SESSION['idUser'];
 				$monControleur->setPhotoProfil($idUser,$idPhoto);
 				

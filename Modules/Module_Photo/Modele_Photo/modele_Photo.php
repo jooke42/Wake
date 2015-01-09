@@ -3,7 +3,7 @@
 class ModelePhoto extends DBMapper {
 
 
-	function uploadPhoto($idPub,$index,$destination,$maxsize,$extensions,$titre,$description) {
+	function uploadPhoto($idPub,$index,$destination,$maxsize,$extensions) {
 		//UPLOAD SUR LE FTP
 		if (!isset($_FILES[$index]) OR $_FILES[$index]['error'] > 0) return FALSE;
 		
@@ -21,7 +21,7 @@ class ModelePhoto extends DBMapper {
 			if(isset($_SESSION['idUser'])) {
 				$idUser=$_SESSION['idUser'];
 			}
-			$req=self::$database->prepare("INSERT INTO photo (idPublication,idUser,description,titre,photo,taille,type) VALUES ('$idPub','$idUser','$description','$titre','$destination','$maxsize','$ext') ");
+			$req=self::$database->prepare("INSERT INTO photo (idPublication,idUser,photo,taille,type) VALUES ('$idPub','$idUser','$destination','$maxsize','$ext') ");
 
 			$req->execute();
             $idPhoto=self::$database->lastInsertId();

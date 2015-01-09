@@ -1,5 +1,5 @@
 <?php 
-if (! defined ('TEST_INCLUDE'))
+ if (! defined ('TEST_INCLUDE'))
    die ("Vous ne pouvez pas acceder directement à ce fichier");
 
 include_once("Controleur_".$module."/controleur_".$module.".php");
@@ -15,7 +15,7 @@ class Connexion extends Module {
 		$monControleur=new $nomControleur($module);
 		if(!isset($action)) {
 			if(isset($_GET['action'])) {
-				$action=$_GET['action'];
+				$action=mysql_real_escape_string($_GET['action']);
 			}
 			else {
 				$action=0;
@@ -23,8 +23,8 @@ class Connexion extends Module {
 		}
 
 		if(isset($_POST['email'])) {
-			$email=$_POST['email'];
-			$pass=$_POST['pass'];
+			$email=mysql_real_escape_string($_POST['email']);
+			$pass=mysql_real_escape_string($_POST['pass']);
 		} 
 
 		switch($action) {
@@ -37,8 +37,9 @@ class Connexion extends Module {
 			break;
 
 			case 2:
-				echo "/!\ Mot de passe incorrect /!\ ";
+
 				$monControleur->affichageFormConnexion();
+				echo "/!\ Mot de passe incorrect /!\ ";
 			break;
 
 			default:

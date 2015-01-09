@@ -1,0 +1,17 @@
+<?php
+
+class ModeleMessagerie extends DBMapper {
+	
+	function __construct($module) {}
+		
+		function afficherListeContact() {
+			// Requete préparée PHP pour récupérer la liste de contact liée au profil
+		}	
+
+		function afficherConversation() {
+			// Requete préparée PHP pour récupérer les messages écrits suivant un indice, 0 pour moi, 1 pour l'autre
+						// optionnel : Systeme de notif si nouveau message
+		}
+}
+
+?>
