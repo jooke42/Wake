@@ -19,7 +19,7 @@
 			if(!isset($action)) {
 
 				if(isset($_GET['action']))
-					$action = $_GET['action'];
+					$action = mysql_real_escape_string($_GET['action']);
 					
 				else 
 					$action = 0;

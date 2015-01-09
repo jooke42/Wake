@@ -31,18 +31,18 @@ class Profil extends Module {
 			}
 		}
         if(isset($_POST['nom'])) {
-            $nom=$_POST['nom'];
-            $pass=$_POST['pass'];
-            $email=$_POST['email'];
-            $genre=$_POST['genre'];
-            $metier=$_POST['metier'];
-			$etude=$_POST['etude'];
-			$adresse=$_POST['adresse'];
-			$lieuTravail=$_POST['lieuTravail'];
-			$status=$_POST['status'];
-            $prenom=$_POST['prenom'];
-            $datNais=$_POST['datNais'];
-            $telephone=$_POST['telephone'];
+            $nom=mysql_real_escape_string($_POST['nom']);
+            $pass=mysql_real_escape_string($_POST['pass']);
+            $email=mysql_real_escape_string($_POST['email']);
+            $genre=mysql_real_escape_string($_POST['genre']);
+            $metier=mysql_real_escape_string($_POST['metier']);
+			$etude=mysql_real_escape_string($_POST['etude']);
+			$adresse=mysql_real_escape_string($_POST['adresse']);
+			$lieuTravail=mysql_real_escape_string($_POST['lieuTravail']);
+			$status=mysql_real_escape_string($_POST['status']);
+            $prenom=mysql_real_escape_string($_POST['prenom']);
+            $datNais=mysql_real_escape_string($_POST['datNais']);
+            $telephone=mysql_real_escape_string($_POST['telephone']);
         }
 		
 		switch($actionProfil) {
