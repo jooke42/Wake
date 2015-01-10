@@ -25,27 +25,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="vue_Photo.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="vue_Photo.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Vue_Photo/vue_Photo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-27.807692" vertical-offset="348" max-vertical-offset="1360">
-              <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.7443182" vertical-offset="399" max-vertical-offset="1394">
+              <caret line="62" column="61" selection-start-line="62" selection-start-column="61" selection-end-line="62" selection-end-column="61" />
               <folding>
-                <marker date="1420901379204" expanded="true" signature="165:435" placeholder="..." />
-                <marker date="1420901379204" expanded="true" signature="778:1015" placeholder="..." />
-                <marker date="1420901379204" expanded="true" signature="778:1015" placeholder="..." />
-                <marker date="1420901379204" expanded="true" signature="778:1015" placeholder="..." />
-                <marker date="1420901379204" expanded="true" signature="778:1015" placeholder="..." />
-                <marker date="1420901379204" expanded="true" signature="778:1015" placeholder="..." />
-                <marker date="1420901379204" expanded="true" signature="778:1015" placeholder="..." />
-                <marker date="1420901379204" expanded="true" signature="778:1028" placeholder="..." />
-                <marker date="1420901379204" expanded="true" signature="778:1833" placeholder="..." />
-                <marker date="1420901379204" expanded="true" signature="1185:1826" placeholder="..." />
-                <marker date="1420901379204" expanded="true" signature="1220:1815" placeholder="..." />
-                <marker date="1420901379204" expanded="true" signature="1260:1800" placeholder="..." />
-                <marker date="1420901379204" expanded="true" signature="1303:1471" placeholder="..." />
-                <marker date="1420901379204" expanded="true" signature="1566:1781" placeholder="..." />
-                <marker date="1420901379204" expanded="true" signature="1629:1758" placeholder="..." />
+                <marker date="1420901829807" expanded="true" signature="165:435" placeholder="..." />
+                <marker date="1420901829807" expanded="true" signature="746:983" placeholder="..." />
+                <marker date="1420901829807" expanded="true" signature="746:983" placeholder="..." />
+                <marker date="1420901829807" expanded="true" signature="746:983" placeholder="..." />
+                <marker date="1420901829807" expanded="true" signature="746:983" placeholder="..." />
+                <marker date="1420901829807" expanded="true" signature="746:983" placeholder="..." />
+                <marker date="1420901829807" expanded="true" signature="746:983" placeholder="..." />
+                <marker date="1420901829807" expanded="true" signature="746:996" placeholder="..." />
+                <marker date="1420901829807" expanded="true" signature="746:1801" placeholder="..." />
+                <marker date="1420901829807" expanded="true" signature="1153:1794" placeholder="..." />
+                <marker date="1420901829807" expanded="true" signature="1188:1783" placeholder="..." />
+                <marker date="1420901829807" expanded="true" signature="1228:1768" placeholder="..." />
+                <marker date="1420901829807" expanded="true" signature="1271:1439" placeholder="..." />
+                <marker date="1420901829807" expanded="true" signature="1534:1749" placeholder="..." />
+                <marker date="1420901829807" expanded="true" signature="1597:1726" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -54,8 +54,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.846153" vertical-offset="323" max-vertical-offset="1887">
-              <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="41" />
+            <state vertical-scroll-proportion="-2.9615386" vertical-offset="994" max-vertical-offset="1887">
+              <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -81,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modele_Photo.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="modele_Photo.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Modele_Photo/modele_Photo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.84770435" vertical-offset="790" max-vertical-offset="1734">
+            <state vertical-scroll-proportion="-29.115385" vertical-offset="790" max-vertical-offset="1734">
               <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
               <folding>
                 <marker date="1420901563970" expanded="true" signature="715:834" placeholder="INSERT INTO ..." />
@@ -152,10 +152,10 @@
         <option value="$PROJECT_DIR$/Assets/css/images/blueimp-gallery.css" />
         <option value="$PROJECT_DIR$/Assets/include/header.php" />
         <option value="$PROJECT_DIR$/Assets/css/blueimp-gallery.css" />
-        <option value="$PROJECT_DIR$/Modules/Module_Photo/Vue_Photo/vue_Photo.php" />
         <option value="$PROJECT_DIR$/Modules/Module_Photo/Photo.php" />
         <option value="$PROJECT_DIR$/Modules/Module_Photo/Controleur_Photo/controleur_Photo.php" />
         <option value="$PROJECT_DIR$/Modules/Module_Photo/Modele_Photo/modele_Photo.php" />
+        <option value="$PROJECT_DIR$/Modules/Module_Photo/Vue_Photo/vue_Photo.php" />
       </list>
     </option>
   </component>
@@ -1039,38 +1039,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.846153" vertical-offset="323" max-vertical-offset="1887">
-          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Vue_Photo/vue_Photo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.807692" vertical-offset="348" max-vertical-offset="1360">
-          <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
-          <folding>
-            <marker date="1420901379204" expanded="true" signature="165:435" placeholder="..." />
-            <marker date="1420901379204" expanded="true" signature="778:1015" placeholder="..." />
-            <marker date="1420901379204" expanded="true" signature="778:1015" placeholder="..." />
-            <marker date="1420901379204" expanded="true" signature="778:1015" placeholder="..." />
-            <marker date="1420901379204" expanded="true" signature="778:1015" placeholder="..." />
-            <marker date="1420901379204" expanded="true" signature="778:1015" placeholder="..." />
-            <marker date="1420901379204" expanded="true" signature="778:1015" placeholder="..." />
-            <marker date="1420901379204" expanded="true" signature="778:1028" placeholder="..." />
-            <marker date="1420901379204" expanded="true" signature="778:1833" placeholder="..." />
-            <marker date="1420901379204" expanded="true" signature="1185:1826" placeholder="..." />
-            <marker date="1420901379204" expanded="true" signature="1220:1815" placeholder="..." />
-            <marker date="1420901379204" expanded="true" signature="1260:1800" placeholder="..." />
-            <marker date="1420901379204" expanded="true" signature="1303:1471" placeholder="..." />
-            <marker date="1420901379204" expanded="true" signature="1566:1781" placeholder="..." />
-            <marker date="1420901379204" expanded="true" signature="1629:1758" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/include/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="629">
@@ -1097,7 +1065,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Modele_Photo/modele_Photo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84770435" vertical-offset="790" max-vertical-offset="1734">
+        <state vertical-scroll-proportion="-29.115385" vertical-offset="790" max-vertical-offset="1734">
           <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
           <folding>
             <marker date="1420901563970" expanded="true" signature="715:834" placeholder="INSERT INTO ..." />
@@ -1110,6 +1078,38 @@
             <marker date="1420901563970" expanded="true" signature="2308:2326" placeholder="DELETE FROM ..." />
             <marker date="1420901563970" expanded="true" signature="2308:2340" placeholder="DELETE FROM ..." />
             <marker date="1420901563970" expanded="true" signature="2319:2326" placeholder="UPDATE user ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.9615386" vertical-offset="994" max-vertical-offset="1887">
+          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Module_Photo/Vue_Photo/vue_Photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7443182" vertical-offset="399" max-vertical-offset="1394">
+          <caret line="62" column="61" selection-start-line="62" selection-start-column="61" selection-end-line="62" selection-end-column="61" />
+          <folding>
+            <marker date="1420901829807" expanded="true" signature="165:435" placeholder="..." />
+            <marker date="1420901829807" expanded="true" signature="746:983" placeholder="..." />
+            <marker date="1420901829807" expanded="true" signature="746:983" placeholder="..." />
+            <marker date="1420901829807" expanded="true" signature="746:983" placeholder="..." />
+            <marker date="1420901829807" expanded="true" signature="746:983" placeholder="..." />
+            <marker date="1420901829807" expanded="true" signature="746:983" placeholder="..." />
+            <marker date="1420901829807" expanded="true" signature="746:983" placeholder="..." />
+            <marker date="1420901829807" expanded="true" signature="746:996" placeholder="..." />
+            <marker date="1420901829807" expanded="true" signature="746:1801" placeholder="..." />
+            <marker date="1420901829807" expanded="true" signature="1153:1794" placeholder="..." />
+            <marker date="1420901829807" expanded="true" signature="1188:1783" placeholder="..." />
+            <marker date="1420901829807" expanded="true" signature="1228:1768" placeholder="..." />
+            <marker date="1420901829807" expanded="true" signature="1271:1439" placeholder="..." />
+            <marker date="1420901829807" expanded="true" signature="1534:1749" placeholder="..." />
+            <marker date="1420901829807" expanded="true" signature="1597:1726" placeholder="..." />
           </folding>
         </state>
       </provider>

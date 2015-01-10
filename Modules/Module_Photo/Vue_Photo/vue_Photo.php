@@ -22,7 +22,7 @@ class VuePhoto {
 	
 	}
 	function affichagePhotoUser($req) {
-      $resultat = $req->fetch();
+
 		echo '<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
     <!-- The container for the modal slides -->
     <div class="slides"></div>
@@ -57,11 +57,13 @@ class VuePhoto {
 echo '<div id="links" >';
 		while($resultat = $req->fetch()) {
             echo '<div class="col-lg-3">';
-			echo '<a href="'.$resultat['photo'].'" data-gallery>';
-		    echo '<img src="'.$resultat['photo'].'" width="250px" height="200px">';
-	   		echo '</a>';
-            echo '<a href="index.php?Module=Photo&actionPhoto=6&idPhoto='.$resultat['idPhoto'].'">Supprimer</a>';
-            echo ' ou mettre en ';
+            echo '<a href="' . $resultat['photo'] . '" data-gallery>';
+            echo '<img src="' . $resultat['photo'] . '" width="250px" height="200px">';
+            echo '</a>';
+            if ($_SESSION['idUser'] == $resultat['idUser']) {
+                echo '<a href="index.php?Module=Photo&actionPhoto=6&idPhoto=' . $resultat['idPhoto'] . '">Supprimer</a>';
+                echo ' ou mettre en ';
+            }
             echo '<a href="index.php?Module=Photo&actionPhoto=7&idPhoto='.$resultat['idPhoto'].'">Photo profil</a>';
             echo '</div>';
    		}
