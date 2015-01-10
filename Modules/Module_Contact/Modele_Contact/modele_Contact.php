@@ -14,8 +14,11 @@ class UnContact {
 	private $_nom;
 	private $_prenom;
 	private $_etat;
+	private $_photo;
+	
 	function __construct($id_Contact,$etat,$nom=NULL,$prenom=NULL) {
-		if($etat==NULL){
+		$modelePhoto=new ModelePhoto();
+		if($etat==NULL or $id_Contact==$_SESSION['idUser']){
 			$this->_etat=PASAMIS;
 		}else{
 			$this->_etat=$etat;
@@ -24,12 +27,16 @@ class UnContact {
 		$this->_id_Contact=$id_Contact;
 		$this->_nom=$nom;
 		$this->_prenom=$prenom;
+		$result=$modelePhoto->affichagePhotoProfilReqUser($this->_id_Contact);
+		$result=$result->fetch();
+		$this->_photo=$result['photo'];
+	
 	}
 	
 	
 	function setContact($etat) {
 		if (isset ( $etat )) {
-			throw new ErrorException ( "vous n'avez pas renseigner de paramètre état pour mettre à jour le contact", "setContact<strong>\$etat</strong>", NULL, "modele_Contact.php", NULL, NULL );
+			throw new Exception ( "vous n'avez pas renseigner de paramètre état pour mettre à jour le contact", "setContact<strong>\$etat</strong>", NULL, "modele_Contact.php", NULL, NULL );
 		
 		} else {
 			
@@ -41,7 +48,7 @@ class UnContact {
 					
 					break;
 				case DEMANDEENVOYE :
-					if ($this->_etat == PASAMIS) {
+					if ($this->_etat == PASAMIS  and  $this->_id_Contact!=$_SESSION['idUser']) {
 						$this->_etat = DEMANDEENVOYE;
 					}
 					
@@ -58,7 +65,7 @@ class UnContact {
 					break;
 				
 				default :
-					throw new ErrorException ( "vous n'avez pas renseigner un paramètre état Valide pour mettre à jour le contact", "setContact<strong>$etat</strong>", NULL, "modele_Contact.php", NULL, NULL );
+					throw new Exception ( "vous n'avez pas renseigner un paramètre état Valide pour mettre à jour le contact", "setContact<strong>$etat</strong>", NULL, "modele_Contact.php", NULL, NULL );
 					break;
 			}
 		}
@@ -76,6 +83,9 @@ class UnContact {
 	function getPrenom(){
 		return $this->_prenom;
 	}
+	function getPhoto(){
+		return $this->_photo;
+	}
 	
 }
 
@@ -86,7 +96,7 @@ class ListeContact{
 	function __construct($idProfil=NULL,$listeContact) {
 	if(!isset($idProfil)){
 			if(!isset ( $_SESSION ['idUser'] )){
-				throw new ErrorException("vous n'avez pas rentrer de profil actuel (pas de user connecter ,pas d'idUser fourni)", "function __construct(\$idProfil=NULL)", NULL, modele_Contact.php, NULL, NULL);
+				throw new Exception("vous n'avez pas rentrer de profil actuel (pas de user connecter ,pas d'idUser fourni)", "function __construct(\$idProfil=NULL)", NULL, modele_Contact.php, NULL, NULL);
 					
 			}else{
 				$this->idProfil=$_SESSION ['idUser'];
@@ -115,7 +125,7 @@ class ListeContactManager extends DBMapper{
 	function __construct($idProfil=NULL) {
 		if(!isset($idProfil)){
 			if(!isset ( $_SESSION ['idUser'] )){
-				throw new ErrorException("vous n'avez pas rentrer de profil actuel (pas de user connecter ,pas d'idUser fourni)", "function __construct(\$idProfil=NULL)", NULL, modele_Contact.php, NULL, NULL);
+				throw new Exception("vous n'avez pas rentrer de profil actuel (pas de user connecter ,pas d'idUser fourni)", "function __construct(\$idProfil=NULL)", NULL, modele_Contact.php, NULL, NULL);
 					
 			}else{
 				$this->idProfil=$_SESSION ['idUser'];
@@ -202,7 +212,7 @@ class UnContactManager extends DBMapper{
 	function __construct($idProfil=NULL) {
 	if(!isset($idProfil)){
 			if(!isset ( $_SESSION ['idUser'] )){
-				throw new ErrorException("vous n'avez pas rentrer de profil actuel (pas de user connecter ,pas d'idUser fourni)", "function __construct(\$idProfil=NULL)", NULL, modele_Contact.php, NULL, NULL);
+				throw new Exception("vous n'avez pas rentrer de profil actuel (pas de user connecter ,pas d'idUser fourni)", "function __construct(\$idProfil=NULL)", NULL, modele_Contact.php, NULL, NULL);
 					
 			}else{
 				$this->idProfil=$_SESSION ['idUser'];

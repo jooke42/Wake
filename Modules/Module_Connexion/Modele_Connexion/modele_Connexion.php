@@ -6,9 +6,8 @@ class ModeleConnexion extends DBMapper {
 		
 		$pass=md5($pass);
 		
-		$req=self::$database->prepare("select * from user where email like '$email'");
-		
-		
+		$req=self::$database->prepare("select * from user where email like ':email'");
+		$req->bindValue(':email', $email, PDO::PARAM_STR);
 		$req->execute();
 		
 		$resultat=$req->fetch();

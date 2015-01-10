@@ -9,10 +9,16 @@ $user="dutinfopw20148";
 $password="upuryzyz";
 
 
+
 /*
 $dns="mysql:host=sql2.olympe.in;dbname=au5d5sxv;";
 $user="au5d5sxv";
 $password="wakeprojetiut";
 */
 
+/*
+$dns="mysql:localhost;port=8080;dbname=au5d5sxv;";
+$user="root";
+$password="";
+*/
 ?>
