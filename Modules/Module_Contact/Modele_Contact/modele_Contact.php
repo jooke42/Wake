@@ -14,8 +14,10 @@ class UnContact {
 	private $_nom;
 	private $_prenom;
 	private $_etat;
+	private $_photo;
+	
 	function __construct($id_Contact,$etat,$nom=NULL,$prenom=NULL) {
-		
+		$modelePhoto=new ModelePhoto();
 		if($etat==NULL or $id_Contact==$_SESSION['idUser']){
 			$this->_etat=PASAMIS;
 		}else{
@@ -25,6 +27,10 @@ class UnContact {
 		$this->_id_Contact=$id_Contact;
 		$this->_nom=$nom;
 		$this->_prenom=$prenom;
+		$result=$modelePhoto->affichagePhotoProfilReqUser($this->_id_Contact);
+		$result=$result->fetch();
+		$this->_photo=$result['photo'];
+	
 	}
 	
 	
@@ -76,6 +82,9 @@ class UnContact {
 	}
 	function getPrenom(){
 		return $this->_prenom;
+	}
+	function getPhoto(){
+		return $this->_photo;
 	}
 	
 }
