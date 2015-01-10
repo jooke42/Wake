@@ -51,7 +51,9 @@ class Photo extends Module {
 		else {
 			$idUser=$_SESSION['Utilisateur']["idUser"];
 		}
-
+		if(isset($_GET['idPhoto'])) {
+			$idPhoto=$_GET['idPhoto'];
+		}
 
 	
 		switch($actionPhoto) {
@@ -82,6 +84,14 @@ class Photo extends Module {
 			case 5:
 				$monControleur->affichageFormPhoto();
 			break;
+			case 6:
+				$monControleur->deletePhoto($idPhoto,$idUser);
+				header ("Refresh: 0;URL=index.php?Module=Photo");
+				break;
+			case 7:
+				$monControleur->setPhotoProfil($idUser,$idPhoto);
+				header ("Refresh: 0;URL=index.php?Module=Photo");
+				break;
 			default:
 		
 			break;

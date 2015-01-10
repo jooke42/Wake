@@ -86,7 +86,10 @@ class ModelePhoto extends DBMapper {
 		$req=self::$database->prepare("UPDATE user SET idPhoto=$idPhoto WHERE idUser=$idUser");
 		$req->execute();
 	}	
-
+	function deletePhoto($idPhoto, $idUser) {
+		$req=self::$database->prepare("DELETE FROM photo where idPhoto=$idPhoto");
+		$req->execute();
+	}
 	
 }
 

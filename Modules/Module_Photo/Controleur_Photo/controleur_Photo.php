@@ -61,7 +61,9 @@ class ControleurPhoto {
 		
 		$this->monModele->setPhotoProfil($idUser,$idPhoto);
 	}
-
+	function deletePhoto($idPhoto, $idUser) {
+		$this->monModele->deletePhoto($idPhoto, $idUser);
+	}
 }
 
 ?>

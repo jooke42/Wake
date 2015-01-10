@@ -22,7 +22,8 @@ class VuePhoto {
 	
 	}
 	function affichagePhotoUser($req) {
-		echo '<div id="blueimp-gallery" class="blueimp-gallery">
+      $resultat = $req->fetch();
+		echo '<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
     <!-- The container for the modal slides -->
     <div class="slides"></div>
     <!-- Controls for the borderless lightbox -->
@@ -30,7 +31,6 @@ class VuePhoto {
     <a class="prev">‹</a>
     <a class="next">›</a>
     <a class="close">×</a>
-
     <a class="play-pause"></a>
     <ol class="indicator"></ol>
     <!-- The modal dialog, which will be used to wrap the lightbox content -->
@@ -54,12 +54,16 @@ class VuePhoto {
     </div>
 </div>
 ';
-echo '<div id="links">';
+echo '<div id="links" >';
 		while($resultat = $req->fetch()) {
+            echo '<div class="col-lg-3">';
 			echo '<a href="'.$resultat['photo'].'" data-gallery>';
 		    echo '<img src="'.$resultat['photo'].'" width="250px" height="200px">';
 	   		echo '</a>';
-
+            echo '<a href="index.php?Module=Photo&actionPhoto=6&idPhoto='.$resultat['idPhoto'].'">Supprimer</a>';
+            echo ' ou mettre en ';
+            echo '<a href="index.php?Module=Photo&actionPhoto=7&idPhoto='.$resultat['idPhoto'].'">Photo profil</a>';
+            echo '</div>';
    		}
 echo '</div>';
 	}
