@@ -29,7 +29,7 @@ class ModeleInscription extends DBMapper {
 			$req=self::$database->prepare("INSERT INTO user (nom,prenom,genre,adresse,email,password,datNais,telephone) VALUES ('$nom','$prenom','$genre','$adresse','$email','$pass','$datNais','$telephone'); ");
 		
 			$req->execute();
-			header ("Refresh: 0;URL=index.php?action=0&Module=Connexion");
+			//header ("Refresh: 0;URL=index.php?action=0&Module=Connexion");
 		}	
 		
 		

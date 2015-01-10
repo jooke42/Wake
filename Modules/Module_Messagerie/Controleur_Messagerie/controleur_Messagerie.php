@@ -22,13 +22,14 @@
 			$this->maVue->afficherListeContact($req);
 		}
 		
-		function afficherConversation() {
-			$req = $this->modele_Messagerie->afficherConversation(); // SELECT
-			$this->vue_Messagerie->afficherConversation($req);
+		function afficherConversation($idDestinataire) {
+			$req = $this->monModele->afficherConversation($idDestinataire); // SELECT
+			$this->maVue->afficherConversation($req,$idDestinataire);
 		}
 
-		function envoyerMessage() {
-			$this->modele_Messagerie->envoyerMessage(); // INSERT
+		function envoyerMessage($contenuMessage,$idDestinataire) {
+
+			$this->monModele->envoyerMessage($contenuMessage,$idDestinataire); // INSERT
 		}
 
 		/* Optionnel */
