@@ -7,7 +7,7 @@ class VueTimeline {
             echo '<div class="panel panel-info" style="margin-bottom: 55px;">';
 
            echo ' <div class="panel-heading">';
-                echo '<h3 class="panel-title">'.$resultat['prenom'].' '.$resultat['nom'].' <span style="float: right">'.$resultat['datePub'].'</span></h3>';
+                echo '<h3 class="panel-title"><a href="index.php?Module=Timeline&action=3&idContact='.$resultat['idUser'].'">'.$resultat['prenom'].' '.$resultat['nom'].'</a> <span style="float: right">'.$resultat['datePub'].'</span></h3>';
 				  echo '	</div>
 					<div class="panel-body">';
                           echo  $resultat['contenu'];
