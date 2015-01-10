@@ -25,12 +25,10 @@ class Timeline extends Module {
 			}
 		}
 
-		if(isset($_POST['titre'])) {
-			$titre=$_POST['titre'];
+		if(isset($_POST['contenu'])) {
 			$contenu=$_POST['contenu'];
 		}
         else {
-            $titre=NULL;
             $contenu=NULL;
         }
 		if(isset($_POST['contenuCom'])) {
@@ -53,7 +51,7 @@ class Timeline extends Module {
 
 			case 1:
 				// ajouter une publication a ma timeline
-				$monControleur->ajoutPublication($titre,$contenu);
+				$monControleur->ajoutPublication($contenu);
 			break;
 
 			case 2:
@@ -66,7 +64,7 @@ class Timeline extends Module {
 			break;
 
             case 4:
-                $monControleur->ajoutPublicationUser($titre,$contenu,$idContact);
+                $monControleur->ajoutPublicationUser($contenu,$idContact);
                 break;
 
 			default:

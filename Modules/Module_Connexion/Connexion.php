@@ -10,7 +10,7 @@ class Connexion extends Module {
 	
 	function __construct() {
 		
-		$module=get_class($this);http://g.e-hentai.org/s/11728c0deb/768436-9
+		$module=get_class($this);
 		$nomControleur='Controleur'.$module;
 		$monControleur=new $nomControleur($module);
 		if(!isset($action)) {
