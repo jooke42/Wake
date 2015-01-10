@@ -21,7 +21,7 @@ class ModeleConnexion extends DBMapper {
 		else {
 			$_SESSION['Utilisateur']=$resultat;
 			$_SESSION['idUser']=$resultat['idUser'];
-			
+
 			header ("Refresh: 0;URL=index.php");
 		}
 			

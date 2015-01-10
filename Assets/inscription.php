@@ -4,15 +4,15 @@
 	<meta charset="UTF-8">
 	<title>Wake - Inscription</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link href="./Assets/css/style_inscription.css" rel="stylesheet">
+	<link href="css/style_inscription.css" rel="stylesheet">
 </head>
 
 <body>
-	
-	<div class="wrapper">
-		<div id="main" style="padding:50px 0 0 0;">
+
+<div class="wrapper">
+	<div id="main" style="padding:50px 0 0 0;">
 		<!--<img src="./css/images/website_logo.png" alt="" style="width: 95%;" />-->
-		
+
 		<!-- Form -->
 		<form id="contact-form" action="/" method="post">
 			<h3>Inscription</h3>
@@ -52,11 +52,12 @@
 			</div>
 		</form>
 		<!-- /Form -->
-		
-		</div>
-	</div>
 
-	<script src="js/scripts.js"></script>
-	
+	</div>
+</div>
+
+<script src="js/scripts.js"></script>
+
 </body>
 </html>
+

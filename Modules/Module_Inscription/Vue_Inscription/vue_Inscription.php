@@ -9,7 +9,7 @@ class VueInscription {
 		<head>
 			<meta charset="UTF-8">
 			<title>Wake - Inscription</title>
-			<link href="Assets/css/style_connexion.css" rel="stylesheet">
+			<link href="Assets/css/style_inscription.css" rel="stylesheet">
 			<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
 		</head>
@@ -21,7 +21,7 @@ class VueInscription {
 
 		<!-- Form -->
 
-		<form name="input" action ="index.php?Module=Inscription&action=1" method="post" enctype="multipart/form-data">
+		<form name="input" id="contact-form" action ="index.php?Module=Inscription&action=1" method="post" enctype="multipart/form-data">
 			<h3>Inscription</h3>
 			<h4></h4>
 			<div>

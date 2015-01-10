@@ -3,6 +3,7 @@ ob_start();
 session_start();
 define('ERROR_LOG_FILE', 'error.log');
 define('ERROR_LOG_ALL', true);
+
 ini_set('display_errors', 1); 
 error_reporting(E_ALL);
 
