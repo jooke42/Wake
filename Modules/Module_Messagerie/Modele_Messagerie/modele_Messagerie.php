@@ -19,11 +19,6 @@ class ModeleMessagerie extends DBMapper {
 	}
 
 	function afficherConversation($idDestinataire) {
-	
-		// Requete préparée PHP pour récupérer les messages écrits suivant un indice, 0 pour moi, 1 pour l'autre
-		// optionnel : Systeme de notif si nouveau message
-	
-		// REVOIR REQUETE
 
 		$idUser=$_SESSION['idUser'];
 		$req = self::$database->prepare("SELECT DISTINCT *
@@ -36,9 +31,9 @@ class ModeleMessagerie extends DBMapper {
 	
 	function envoyerMessage($contenuMessage,$idDestinataire) {
 		$dateJour = date('Y-m-d');
-		$heureEnvoi = date("H"); // CONDITION SI HEURE < 10
-		$minuteEnvoi = date("i"); // CONDITION SI MINUTE < 10
-		$secondeEnvoi = date("s"); // CONDITION SI SECONDE < 10
+		$heureEnvoi = date("H"); 
+		$minuteEnvoi = date("i"); 
+		$secondeEnvoi = date("s"); 
 
 
 		$idUser = $_SESSION['idUser'];

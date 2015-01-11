@@ -8,13 +8,12 @@ class VuePhoto {
 			<label for="mon_fichier">Photo (tous formats | max. 16 Mo) :</label><br />
 			<input type="hidden" name="MAX_FILE_SIZE" value="16000000" />
 			<input type="file" name="photo" id="photo" /><br />
-     			<input type="submit" name="submit" value="Envoyer" />
+     			<input style="padding: 3px 10px 3px 10px;" type="submit" name="submit" value="Envoyer" />
 		</form>
+		<br>
 		';
 	}
 
-
-	
 	function affichagePhotoProfil($req) {
 		
 		$resultat = $req->fetch();
@@ -56,15 +55,15 @@ class VuePhoto {
 ';
 echo '<div id="links" >';
 		while($resultat = $req->fetch()) {
-            echo '<div class="col-lg-3">';
+            echo '<div class="col-lg-3" style="text-align:center;">';
             echo '<a href="' . $resultat['photo'] . '" data-gallery>';
             echo '<img src="' . $resultat['photo'] . '" width="250px" height="200px">';
             echo '</a>';
             if ($_SESSION['idUser'] == $resultat['idUser']) {
-                echo '<a href="index.php?Module=Photo&actionPhoto=6&idPhoto=' . $resultat['idPhoto'] . '">Supprimer</a>';
-                echo ' ou mettre en ';
+                echo '<a style="color: dodgerblue; text-decoration: none; font-size: 13px;" href="index.php?Module=Photo&actionPhoto=6&idPhoto=' . $resultat['idPhoto'] . '">Supprimer</a>';
+                echo ' <span style="color: grey; text-decoration: none; font-size: 13px;">ou mettre en  </span>';
             }
-            echo '<a href="index.php?Module=Photo&actionPhoto=7&idPhoto='.$resultat['idPhoto'].'">Photo profil</a>';
+            echo '<a style="color: dodgerblue; text-decoration: none; font-size: 13px;" href="index.php?Module=Photo&actionPhoto=7&idPhoto='.$resultat['idPhoto'].'">Photo profil</a>';
             echo '</div>';
    		}
 echo '</div>';

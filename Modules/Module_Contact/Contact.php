@@ -6,7 +6,7 @@ if (! defined ('TEST_INCLUDE'))
 include_once("Controleur_".$module."/controleur_".$module.".php");
 include_once("Vue_".$module."/vue_".$module.".php");
 include_once("Modele_".$module."/modele_".$module.".php");
-include_once("/../Module_Photo/Modele_Photo/modele_Photo.php");
+include_once("./Modules/Module_Photo/Modele_Photo/modele_Photo.php");
 
  class Contact extends Module{
 	 

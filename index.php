@@ -15,10 +15,10 @@ define('TEST_INCLUDE', 1);
 
 		<?php
 
-		include('Assets/include/init.php');
-		include('Assets/include/params_connexion.php');
-		include('Assets/include/dbmapper.php');
-		include('Assets/include/module.php');
+		include('Assets/include/installation/init.php');
+		include('Assets/include/installation/params_connexion.php');
+		include('Assets/include/installation/dbmapper.php');
+		include('Assets/include/installation/module.php');
 
 		$connexion = new PDO ($dns, $user, $password);
 		DBMapper::init($connexion);
@@ -90,12 +90,14 @@ define('TEST_INCLUDE', 1);
 					break;
 
 			}
+			
+			include('Assets/include/footer.php');
 			?><?php
 			
 		}
 		
         ob_end_flush();
-		include('Assets/include/footer.php');
+		
 		?>
 
 

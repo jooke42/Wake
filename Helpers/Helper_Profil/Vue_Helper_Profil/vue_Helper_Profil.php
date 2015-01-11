@@ -28,7 +28,7 @@ class VueHelperProfil{
         echo ' <div class="col-lg-4">
 			<div class="panel panel-default">
 				<div class="panel-body">
-					<div class="well col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-xs-6 col-xs-offset-3" style="height: 185px; margin-top: 15px;">';
+					<div class="well col-lg-9 col-lg-offset-2 col-md-9 col-md-offset-2 col-xs-11" style="height: 185px; margin-top: 15px;">';
         $monControleurPhoto->affichagePhotoProfilComplet();
         echo '</div>
 				</div>

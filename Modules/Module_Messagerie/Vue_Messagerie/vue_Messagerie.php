@@ -9,12 +9,12 @@
 
 			echo '<div class="col-lg-4">
 				<div class="form-group">
-					<label for="select" class="col-lg-2 control-label">Selects</label>
-					<div class="col-lg-10">
+					<label for="select" class="col-lg-12 control-label" style="font-size: 20px; margin-bottom: -35px;">Liste des contacts</label>
+					<div class="col-lg-12">
 						<div class="form-group">
 						<form id="contact-form" name="input" action ="index.php?Module=Messagerie&action=1" method="post" enctype="multipart/form-data">
 
-								<select multiple="" size="10" class="form-control" name="idDestinataire">';
+								<select multiple="" size="5" class="form-control" name="idDestinataire">';
 
 									while($resultat = $req->fetch()) {
 
@@ -65,7 +65,7 @@
 					<fieldset>
 						<div class="col-lg-12">
 							<div class="form-group">
-								<div class="col-lg-9">
+								<div class="col-lg-8">
 									 <input class="form-control floating-label" name="contenuMessage" id="focusedInput" placeholder="Envoyer un message..." type="text">
 								</div>
 								<div class="col-lg-2">

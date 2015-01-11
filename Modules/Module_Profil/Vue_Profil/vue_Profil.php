@@ -31,7 +31,7 @@ class VueProfil {
 					</div>
 				</div>';
 				$this->affichageProfilPhoto($monControleurPhoto);
-				  echo '<a href="index.php?Module=Profil&actionProfil=1" alt="Modifier données">Modifier vos données personnelles</a>
+				  echo '<a style="margin-left: 15px; font-size: 13px;" href="index.php?Module=Profil&actionProfil=1" alt="Modifier données">Modifier vos données personnelles</a>
 				<div class="col-lg-12">
 					<h2><div class="icon-preview"><i class="mdi-image-timer-auto" style="margin-right: 15px;"></i><span>Amis </span></div></h2>
 					<br>
@@ -222,8 +222,12 @@ class VueProfil {
 				</div>';
     }
 function affichageProfilPhoto($monControleurPhoto) {
-			$monControleurPhoto->affichageFormPhoto();
-
+	
+			echo '<div class="col-lg-12">
+					<h2><div class="icon-preview"><i class="mdi-image-timer-auto" style="margin-right: 15px;"></i><span>Photo </span></div></h2>
+					<br>';
+					$monControleurPhoto->affichageFormPhoto();
+			echo '</div>';
 		}
 
 
