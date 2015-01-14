@@ -120,14 +120,14 @@ body {
 	border:1px solid #999;
 }
 ::-webkit-input-placeholder {
-    color:#888;
+	color:#888;
 }
 :-moz-placeholder {
-    color:#888;
+	color:#888;
 }
 ::-moz-placeholder {
-    color:#888;
+	color:#888;
 }
 :-ms-input-placeholder {
-    color:#888;
+	color:#888;
 }

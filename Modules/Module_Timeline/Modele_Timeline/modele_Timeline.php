@@ -1,12 +1,19 @@
 <?php
 
 class ModeleTimeline extends DBMapper {
+
 	function affichagePublication() {
 		if(isset($_SESSION['idUser'])) {
 			$idUser=$_SESSION['idUser'];
 		}
-		$req=self::$database->prepare("select * from publication where idUser=$idUser ORDER BY datePub desc");
-		
+		$req=self::$database->prepare("SELECT *
+FROM publication, user
+WHERE
+publication.idAuteur = user.idUser
+
+AND publication.idUser =$idUser
+ORDER BY idPublication DESC ");
+
 		$req->execute();
 		
 		return $req;
@@ -14,8 +21,14 @@ class ModeleTimeline extends DBMapper {
 
 	function affichagePublicationUser($idContact) {
 		
-		$req=self::$database->prepare("select * from publication where idUser=$idContact ORDER BY datePub desc");
-		
+		$req=self::$database->prepare("SELECT *
+FROM publication, user
+WHERE
+publication.idAuteur = user.idUser
+
+AND publication.idUser =$idContact
+ORDER BY idPublication DESC");
+
 		$req->execute();
 		
 		return $req;
@@ -27,31 +40,34 @@ class ModeleTimeline extends DBMapper {
 
 		$idUser=$_SESSION['idUser'];
 
-		$req=self::$database->prepare("select * from commentaire where idUser=$idUser and idPub=$idPub ");
-		
+		$req=self::$database->prepare("select * from commentaire,user where idPub=$idPub and commentaire.idUser=user.idUser");
 		$req->execute();
 		return $req;
 	}
 		
 
-	function ajoutPublication($titre,$contenu) {
+	function ajoutPublication($contenu) {
 		if(isset($_SESSION['idUser'])) {
 			$idUser=$_SESSION['idUser'];
 		}
-		
-		$datePub = date('Y-m-d');		
-	
-		$req=self::$database->prepare("INSERT INTO publication (idUser,titre,contenu,datePub) VALUES ('$idUser','$titre','$contenu','$datePub') ");
+
+		$datePub=date('Y-m-d');
+
+		$req=self::$database->prepare("INSERT INTO publication (idUser,idAuteur,contenu,datePub) VALUES ('$idUser','$idUser','$contenu','$datePub') ");
 		
 		$req->execute();
+
 		header ("Refresh: 0;URL=index.php?action=0&Module=Timeline");
 	}
-    function ajoutPublicationUSer($titre,$contenu,$idContact) {
+    function ajoutPublicationUSer($contenu,$idContact) {
 
+		if(isset($_SESSION['idUser'])) {
+			$idUser=$_SESSION['idUser'];
+		}
 
         $datePub = date('Y-m-d');
 
-        $req=self::$database->prepare("INSERT INTO publication (idUser,titre,contenu,datePub) VALUES ('$idContact','$titre','$contenu','$datePub') ");
+        $req=self::$database->prepare("INSERT INTO publication (idUser,idAuteur,contenu,datePub) VALUES ('$idContact','$idUser','$contenu','$datePub') ");
 
         $req->execute();
         header ("Refresh: 0;URL=index.php?action=3&Module=Timeline&idContact=$idContact");
@@ -62,7 +78,7 @@ class ModeleTimeline extends DBMapper {
 		$idUser=$_SESSION['idUser'];
 
         if($idContact==$idUser) {
-            $action=1;
+            $action=0;
 
         }
         else {

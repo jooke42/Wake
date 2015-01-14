@@ -19,11 +19,27 @@
 			if(!isset($action)) {
 
 				if(isset($_GET['action']))
-					$action = mysql_real_escape_string($_GET['action']);
+					$action = $_GET['action'];
 					
 				else 
 					$action = 0;
+				if(isset($_POST['idDestinataire'])) {
+					$idDestinataire=$_POST['idDestinataire'];
+				}
 
+				elseif(isset($_GET['idDestinataire'])) {
+					$idDestinataire=$_GET['idDestinataire'];
+				}
+				else {
+					$idDestinataire=NULL;
+				}
+
+				if(isset($_POST['contenuMessage'])) {
+					$contenuMessage=$_POST['contenuMessage'];
+				}
+				else {
+					$contenuMessage=NULL;
+				}
 			switch($action) {
 
 				case 0:
@@ -31,11 +47,12 @@
 					break;
 
 				case 1:
-					$this->controleur_Messagerie->afficherConversation();
+
+					$this->controleur_Messagerie->afficherConversation($idDestinataire);
 					break;
 
 				case 2:
-					$this->controleur_Messagerie->envoyerMessage();
+					$this->controleur_Messagerie->envoyerMessage($contenuMessage,$idDestinataire);
 					break;
 
 				default:

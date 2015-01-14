@@ -19,7 +19,7 @@ class Photo extends Module {
 		
 		if(!isset($actionPhoto)) {
 			if(isset($_GET['actionPhoto'])) {
-				$actionPhoto=mysql_real_escape_string($_GET['actionPhoto']);
+				$actionPhoto=$_GET['actionPhoto'];
 			}
 			else {
 				$actionPhoto=0;
@@ -28,7 +28,7 @@ class Photo extends Module {
 
 		if(isset($_POST['MAX_FILE_SIZE'])) {
 
-			$maxsize=mysql_real_escape_string($_POST['MAX_FILE_SIZE']);
+			$maxsize=$_POST['MAX_FILE_SIZE'];
 		}
 		else {
 			$titre=null;
@@ -46,12 +46,14 @@ class Photo extends Module {
 			$destination=NULL;
 		}	
 		if(isset($_GET['idContact'])) {
-			$idUser=mysql_real_escape_string($_GET['idContact']);
+			$idUser=$_GET['idContact'];
 		}
 		else {
 			$idUser=$_SESSION['Utilisateur']["idUser"];
 		}
-
+		if(isset($_GET['idPhoto'])) {
+			$idPhoto=$_GET['idPhoto'];
+		}
 
 	
 		switch($actionPhoto) {
@@ -82,6 +84,14 @@ class Photo extends Module {
 			case 5:
 				$monControleur->affichageFormPhoto();
 			break;
+			case 6:
+				$monControleur->deletePhoto($idPhoto,$idUser);
+				header ("Refresh: 0;URL=index.php?Module=Photo");
+				break;
+			case 7:
+				$monControleur->setPhotoProfil($idUser,$idPhoto);
+				header ("Refresh: 0;URL=index.php?Module=Photo");
+				break;
 			default:
 		
 			break;

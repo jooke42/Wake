@@ -7,7 +7,7 @@ class VueTimeline {
             echo '<div class="panel panel-info" style="margin-bottom: 55px;">';
 
            echo ' <div class="panel-heading">';
-                echo '<h3 class="panel-title">'.$resultat['titre'].'</h3>';
+                echo '<h3 class="panel-title"><a href="index.php?Module=Timeline&action=3&idContact='.$resultat['idUser'].'">'.$resultat['prenom'].' '.$resultat['nom'].'</a> <span style="float: right">'.$resultat['datePub'].'</span></h3>';
 				  echo '	</div>
 					<div class="panel-body">';
                           echo  $resultat['contenu'];
@@ -47,7 +47,7 @@ class VueTimeline {
 		while($resultatCom = $reqCom->fetch()) {
 				
 				
-				echo '<p class="list-group-item-text text-primary">'.$resultatCom['idUser'].' : '.$resultatCom['contenu'].'</p>';
+				echo '<a href="index.php?Module=Timeline&action=3&idContact='.$resultatCom['idUser'].'" class="list-group-item-text text-primary">'.$resultatCom['prenom'].' '.$resultatCom['nom'].' </a>: '.$resultatCom['contenu'].'<br>';
 				//echo 'Publier le : '.$resultatCom['dateCom'].'<br>';
 					
 				
@@ -66,11 +66,6 @@ class VueTimeline {
         }
        echo  '<form class="form-horizontal" name="input" style="margin-bottom: 25px; margin-top: 5px;" action="index.php?Module=Timeline&action='. $action .'&idContact='.$idContact .'" method="post" method="post" enctype="multipart/form-data">
 					<fieldset>
-						<div class="form-group">
-							<div class="col-lg-12">
-								<input type="text" class="form-control floating-label" name="titre" id="focusedInput" placeholder="Titre" required>
-							</div>
-						</div>
 						<div class="form-group">
 							<!--<label for="textArea" class="col-lg-2 control-label">Textarea</label>-->
 							<div class="col-lg-12">

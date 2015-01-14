@@ -8,8 +8,9 @@ class VuePhoto {
 			<label for="mon_fichier">Photo (tous formats | max. 16 Mo) :</label><br />
 			<input type="hidden" name="MAX_FILE_SIZE" value="16000000" />
 			<input type="file" name="photo" id="photo" /><br />
-     			<input type="submit" name="submit" value="Envoyer" />
+     			<input style="padding: 3px 10px 3px 10px;" type="submit" name="submit" value="Envoyer" />
 		</form>
+		<br>
 		';
 	}
 
@@ -22,7 +23,8 @@ class VuePhoto {
 	
 	}
 	function affichagePhotoUser($req) {
-		echo '<div id="blueimp-gallery" class="blueimp-gallery">
+
+		echo '<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
     <!-- The container for the modal slides -->
     <div class="slides"></div>
     <!-- Controls for the borderless lightbox -->
@@ -30,7 +32,6 @@ class VuePhoto {
     <a class="prev">‹</a>
     <a class="next">›</a>
     <a class="close">×</a>
-
     <a class="play-pause"></a>
     <ol class="indicator"></ol>
     <!-- The modal dialog, which will be used to wrap the lightbox content -->
@@ -54,12 +55,19 @@ class VuePhoto {
     </div>
 </div>
 ';
-echo '<div id="links">';
+echo '<div id="links" >';
 		while($resultat = $req->fetch()) {
-			echo '<a href="'.$resultat['photo'].'" data-gallery>';
-		    echo '<img src="'.$resultat['photo'].'" width="250px" height="200px">';
-	   		echo '</a>';
-
+            echo '<div class="col-lg-4">';
+            echo '<a href="' . $resultat['photo'] . '" data-gallery>';
+            echo '<img src="' . $resultat['photo'] . '" width="250px" height="200px">';
+            echo '</a>';
+            if ($_SESSION['idUser'] == $resultat['idUser']) {
+                echo '<a style="color: dodgerblue; text-decoration: none; font-size: 15px;" href="index.php?Module=Photo&actionPhoto=6&idPhoto=' . $resultat['idPhoto'] . '">Supprimer</a>';
+                /*echo ' <span style="color: grey; text-decoration: none; font-size: 15px;">ou mettre en</span> ';*/
+            }
+            echo '<br>';
+            echo '<a style="color: dodgerblue; text-decoration: none; font-size: 15px;" href="index.php?Module=Photo&actionPhoto=7&idPhoto='.$resultat['idPhoto'].'">Mettre en photo de profil</a>';
+            echo '</div>';
    		}
 echo '</div>';
 	}

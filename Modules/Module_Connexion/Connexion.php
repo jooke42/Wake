@@ -10,12 +10,12 @@ class Connexion extends Module {
 	
 	function __construct() {
 		
-		$module=get_class($this);http://g.e-hentai.org/s/11728c0deb/768436-9
+		$module=get_class($this);
 		$nomControleur='Controleur'.$module;
 		$monControleur=new $nomControleur($module);
 		if(!isset($action)) {
 			if(isset($_GET['action'])) {
-				$action=mysql_real_escape_string($_GET['action']);
+				$action=$_GET['action'];
 			}
 			else {
 				$action=0;
@@ -23,8 +23,8 @@ class Connexion extends Module {
 		}
 
 		if(isset($_POST['email'])) {
-			$email=mysql_real_escape_string($_POST['email']);
-			$pass=mysql_real_escape_string($_POST['pass']);
+			$email=$_POST['email'];
+			$pass=$_POST['pass'];
 		} 
 
 		switch($action) {

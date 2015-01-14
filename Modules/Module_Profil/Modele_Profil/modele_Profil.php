@@ -5,10 +5,10 @@ class ModeleProfil extends DBMapper {
         $pass=md5($pass);
         if($_SESSION['Utilisateur']['password']==$pass) {
             if(isset($_SESSION['idUser'])) {
-                $idUser=$_SESSION['idUser'];
+                $idUser = $_SESSION['idUser'];
             }
+            $req = self::$database->prepare("UPDATE user set nom='$nom',prenom='$prenom', email='$email', genre=$genre, adresse='$adresse', datNais=$datNais, telephone=$telephone, metier='$metier', status='$status', lieuTravail='$lieuTravail', etude='$etude' where idUser=$idUser");
 
-            $req = self::$database->prepare("UPDATE user set nom='$nom',prenom='$prenom', email='$email', genre=$genre, datNais=$datNais, telephone=$telephone, metier='$metier', status='$status' lieuTravail='$lieuTravail', etude='$etude' where idUser=$idUser");
             $req->execute();
             $_SESSION['Utilisateur']["nom"]=$nom;
             $_SESSION['Utilisateur']["prenom"]=$prenom;

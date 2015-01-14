@@ -39,7 +39,10 @@ class VueConnexion {
 			<div>
 				<button name="submit" type="submit" id="contact-submit">Se connecter</button>
 			</div>
-			<a href=index.php?Module=Inscription&action=0>S\'inscrire en cliquant ici </a>
+			<div style="margin-top: 15px;">
+				<span style="color: grey; text-decoration: none; font-size: 15px;">Si vous ne disposez d\'aucun compte, <br>s\'inscrire en </span>
+				<a style="color: dodgerblue; text-decoration: none; font-size: 15px;" href="index.php?Module=Inscription&action=0">cliquant ici </a>
+			</div>
 		</form>
 
 		<!-- /Form -->
