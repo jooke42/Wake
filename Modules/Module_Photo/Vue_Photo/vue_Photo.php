@@ -14,8 +14,6 @@ class VuePhoto {
 		';
 	}
 
-
-	
 	function affichagePhotoProfil($req) {
 		
 		$resultat = $req->fetch();
@@ -57,16 +55,15 @@ class VuePhoto {
 ';
 echo '<div id="links" >';
 		while($resultat = $req->fetch()) {
-            echo '<div class="col-lg-4">';
+            echo '<div class="col-lg-3" style="text-align:center;">';
             echo '<a href="' . $resultat['photo'] . '" data-gallery>';
             echo '<img src="' . $resultat['photo'] . '" width="250px" height="200px">';
             echo '</a>';
             if ($_SESSION['idUser'] == $resultat['idUser']) {
-                echo '<a style="color: dodgerblue; text-decoration: none; font-size: 15px;" href="index.php?Module=Photo&actionPhoto=6&idPhoto=' . $resultat['idPhoto'] . '">Supprimer</a>';
-                /*echo ' <span style="color: grey; text-decoration: none; font-size: 15px;">ou mettre en</span> ';*/
+                echo '<a style="color: dodgerblue; text-decoration: none; font-size: 13px;" href="index.php?Module=Photo&actionPhoto=6&idPhoto=' . $resultat['idPhoto'] . '">Supprimer</a>';
+                echo ' <span style="color: grey; text-decoration: none; font-size: 13px;">ou mettre en  </span>';
             }
-            echo '<br>';
-            echo '<a style="color: dodgerblue; text-decoration: none; font-size: 15px;" href="index.php?Module=Photo&actionPhoto=7&idPhoto='.$resultat['idPhoto'].'">Mettre en photo de profil</a>';
+            echo '<a style="color: dodgerblue; text-decoration: none; font-size: 13px;" href="index.php?Module=Photo&actionPhoto=7&idPhoto='.$resultat['idPhoto'].'">Photo profil</a>';
             echo '</div>';
    		}
 echo '</div>';

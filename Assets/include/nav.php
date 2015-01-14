@@ -35,8 +35,8 @@
             <li class="dropdown">
                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Menu principal <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    <li><a href="./Assets/include/notre_projet.php">Notre projet</a></li>
-                    <li><a href="./Assets/include/nous_contacter.php">Nous contacter</a></li>
+                    <li><a href="javascript:void(0)">Notre projet</a></li>
+                    <li><a href="javascript:void(0)">Nous contacter</a></li>
                     <li class="divider"></li>
                     <li><a href="Assets/include/deconnexion.php">Se déconnecter</a></li>
                 </ul>
