@@ -90,10 +90,15 @@ define('TEST_INCLUDE', 1);
 					break;
 
 			}
-			
+	?>
+	<script type="text/javascript" >
+
+			search();
+
+	</script>
+
+			<?php
 			include('Assets/include/footer.php');
-			?><?php
-			
 		}
 		
         ob_end_flush();

@@ -12,8 +12,7 @@
     <link rel="stylesheet" href="Assets/css/bootstrap-image-gallery.css">
     <link rel="stylesheet" href="Assets/css/demo.css">
     <link rel="stylesheet" href="Assets/css/style_connexion.css" >
-
-
+    <script src="Assets/js/search.js">
 </head>
 <body>
 <script type="text/javascript">

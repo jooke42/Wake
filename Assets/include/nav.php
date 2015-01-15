@@ -13,7 +13,13 @@
 		
 		<!-- Barre de recherche -->
         <form class="navbar-form navbar-left" method="POST" action="index.php?Module=Contact&action=searchContact">
-            <input class="form-control col-lg-8" name="search" id="search"size=35 placeholder="Search..." type="text">
+            <input class="form-control col-lg-8" name="search" id="search"size=35 placeholder="Search..." type="text" autocomplete="off" list="datalist">
+            <datalist  id="datalist">
+
+                </datalist>
+            </div>
+
+
         </form>
   
 		<!-- Menu Header -->
