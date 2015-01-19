@@ -8,5 +8,5 @@ $idUser=$_SESSION['idUser'];
 $modeleContact=new ModeleContact();
 $suggestionList=$modeleContact->seachProfil($_GET['query']);
 foreach($suggestionList as $suggestion ){
-    ?><option value="<?php echo $suggestion->getIdContact();?>"><?php echo $suggestion->getPrenom()." ".$suggestion->getNom();?></option><?php
+    ?><option value="<?php echo $suggestion->getPrenom()." ".$suggestion->getNom();?>"><?php
 }

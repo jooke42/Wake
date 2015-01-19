@@ -91,14 +91,14 @@ define('TEST_INCLUDE', 1);
 
 			}
 	?>
-	<script type="text/javascript" >
 
-			search();
 
-	</script>
+
+
 
 			<?php
 			include('Assets/include/footer.php');
+
 		}
 		
         ob_end_flush();
